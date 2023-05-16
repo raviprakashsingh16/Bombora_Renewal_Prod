@@ -1,0 +1,51 @@
+get_creds, Done
+database "bombora_1" already exists
+DB creation, Completed
+get_creds, Done
+Database created
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+Database created
+DB creation, Completed
+get_creds, Done
+Database created
+DB creation, Completed
+get_creds, Done
+Database created
+DB creation, Completed
+get_creds, Done
+Database created
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed

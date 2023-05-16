@@ -1,0 +1,1 @@
+create index IF NOT EXISTS idx_f_adat_bombora_topic on "dwh"."f_adat_bombora"(topic);

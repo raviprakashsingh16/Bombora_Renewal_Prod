@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: staging
+    schema: staging
+    tables:
+        - name: bombora_topics
+        - name: stg_account
+        - name: stg_adat
+        - name: stg_acc_topics
+        - name: stg_pre_loaded_topics
+
+  - name: dwh
+    schema: dwh
+    tables:
+        - name: f_acc_topics
+        - name: f_bombora_select_topic 

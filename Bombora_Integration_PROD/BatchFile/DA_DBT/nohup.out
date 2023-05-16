@@ -1,0 +1,26 @@
+1
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh', '--context_param filename=/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json']
+0:00:06.705427
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization
+b'f_intent_account\nf_bombora_select_topic\nf_intent_lead\nf_intent_account_agg\nf_intent_lead_agg\n'
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/bombora
+>>>>>>>>
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/bombora/models
+b"\x1b[0m17:39:46  Running with dbt=1.2.0\n\x1b[0m17:39:46  [\x1b[33mWARNING\x1b[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.\nThere are 1 unused configuration paths:\n- models.bombora.example\n\n\x1b[0m17:39:46  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 265 macros, 0 operations, 1 seed file, 7 sources, 0 exposures, 0 metrics\n\x1b[0m17:39:46  \n\x1b[0m17:39:46  Concurrency: 10 threads (target='dev')\n\x1b[0m17:39:46  \n\x1b[0m17:39:46  1 of 1 START seed file bombora_dwh.d_pre_loaded_topics ......................... [RUN]\n\x1b[0m17:40:01  1 of 1 OK loaded seed file bombora_dwh.d_pre_loaded_topics ..................... [\x1b[32mINSERT 12940\x1b[0m in 14.63s]\n\x1b[0m17:40:01  \n\x1b[0m17:40:01  Finished running 1 seed in 0 hours 0 minutes and 14.75 seconds (14.75s).\n\x1b[0m17:40:01  \n\x1b[0m17:40:01  \x1b[32mCompleted successfully\x1b[0m\n\x1b[0m17:40:01  \n\x1b[0m17:40:01  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1\n" >>
+get_creds, Done
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/sql_queries
+updateToDB, Done
+  File "/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/src/kpi.py", line 49
+    elif key == 'uniquekey' :
+TabError: inconsistent use of tabs and spaces in indentation
+1
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh', '--context_param filename=/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json']
+0:00:07.220789
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization
+b''
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/bombora
+>>>>>>>>
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/bombora/models
+b"\x1b[0m06:20:35  Running with dbt=1.2.0\n\x1b[0m06:20:35  [\x1b[33mWARNING\x1b[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.\nThere are 1 unused configuration paths:\n- models.bombora.example\n\n\x1b[0m06:20:35  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 266 macros, 0 operations, 1 seed file, 7 sources, 0 exposures, 0 metrics\n\x1b[0m06:20:35  \n\x1b[0m06:20:35  Concurrency: 10 threads (target='dev')\n\x1b[0m06:20:35  \n\x1b[0m06:20:35  1 of 1 START seed file bombora_dwh.d_pre_loaded_topics ......................... [RUN]\n\x1b[0m06:20:50  1 of 1 OK loaded seed file bombora_dwh.d_pre_loaded_topics ..................... [\x1b[32mINSERT 12940\x1b[0m in 14.57s]\n\x1b[0m06:20:50  \n\x1b[0m06:20:50  Finished running 1 seed in 0 hours 0 minutes and 14.70 seconds (14.70s).\n\x1b[0m06:20:50  \n\x1b[0m06:20:50  \x1b[32mCompleted successfully\x1b[0m\n\x1b[0m06:20:50  \n\x1b[0m06:20:50  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1\n" >>

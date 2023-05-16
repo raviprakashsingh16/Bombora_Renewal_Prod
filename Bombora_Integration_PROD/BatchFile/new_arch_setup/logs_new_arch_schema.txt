@@ -1,0 +1,5 @@
+LOG STARTED 
+
+schema "bombora_dwh" already exists
+schema "revature_dwh" already exists
+Table f_acc_topics created

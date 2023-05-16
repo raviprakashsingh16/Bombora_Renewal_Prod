@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_R47EUWp1Ee2FmbwZhN_VEA" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_R53fgGp1Ee2FmbwZhN_VEA" comment="" name="db_username" prompt="db_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_R53fgWp1Ee2FmbwZhN_VEA" comment="" name="db_port" prompt="db_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_R53fgmp1Ee2FmbwZhN_VEA" comment="" name="db_host" prompt="db_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_R53fg2p1Ee2FmbwZhN_VEA" comment="" name="db_password" prompt="db_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value=""/>
+  <contextParameter xmi:id="_R53fhGp1Ee2FmbwZhN_VEA" comment="" name="db_database" prompt="db_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_R53fhWp1Ee2FmbwZhN_VEA" comment="" name="db_table" prompt="db_table?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_R53fh2p1Ee2FmbwZhN_VEA" comment="" name="db_schema" prompt="db_schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_R53fiGp1Ee2FmbwZhN_VEA" comment="" name="sf_subject" prompt="sf_subject?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_R53fiWp1Ee2FmbwZhN_VEA" comment="" name="sf_issuer" prompt="sf_issuer?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_R53fimp1Ee2FmbwZhN_VEA" comment="" name="sf_key_store_password" prompt="sf_key_store_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value=""/>
+  <contextParameter xmi:id="_R53fi2p1Ee2FmbwZhN_VEA" comment="" name="sf_certificate_alias" prompt="sf_certificate_alias?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_R53fjGp1Ee2FmbwZhN_VEA" comment="" name="sf_key_store" prompt="sf_key_store?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_R53fjWp1Ee2FmbwZhN_VEA" comment="" name="sf_audience" prompt="sf_audience?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_j4WIkHSMEe2n0u-SW_dEjA" comment="" name="filename" prompt="filename?" promptNeeded="false" repositoryContextId="built-in" type="id_File" value=""/>
+  <contextParameter xmi:id="_P6y2cNqREe2_AO1SWCNPFg" comment="" name="sf_url" prompt="sf_url?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+</talendfile:ContextType>

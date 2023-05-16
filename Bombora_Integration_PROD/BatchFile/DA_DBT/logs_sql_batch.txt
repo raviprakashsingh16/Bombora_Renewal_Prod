@@ -1,0 +1,7 @@
+LOG STARTED
+
+aws_s3 created
+f_adat_bombora creation, Done
+drop_idx_f_adat_bombora_topic, Done
+Bombora file loading, Done
+idx_f_adat_bombora_topic , Done

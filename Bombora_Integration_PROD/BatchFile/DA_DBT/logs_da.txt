@@ -1,0 +1,8 @@
+LOG STARTED
+
+
+For filename: /home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+
+0global 1900-01-01T00:00:00.000Z
+[WARN ] 06:20:24 org.talend.components.api.component.runtime.JarRuntimeInfo- Unable to make field private static volatile java.net.URLStreamHandlerFactory java.net.URL.factory accessible: module java.base does not "opens java.net" to unnamed module @11614aef
+Job Completed
