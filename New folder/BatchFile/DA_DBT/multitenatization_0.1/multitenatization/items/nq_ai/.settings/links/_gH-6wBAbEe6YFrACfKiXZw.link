@@ -1,0 +1,53 @@
+{
+  "itemId" : "_gH-6wBAbEe6YFrACfKiXZw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_R47EUGp1Ee2FmbwZhN_VEA",
+    "parameterList" : [ {
+      "id" : "_R53fhGp1Ee2FmbwZhN_VEA",
+      "name" : "db_database"
+    }, {
+      "id" : "_R53fgmp1Ee2FmbwZhN_VEA",
+      "name" : "db_host"
+    }, {
+      "id" : "_R53fg2p1Ee2FmbwZhN_VEA",
+      "name" : "db_password"
+    }, {
+      "id" : "_R53fgWp1Ee2FmbwZhN_VEA",
+      "name" : "db_port"
+    }, {
+      "id" : "_R53fh2p1Ee2FmbwZhN_VEA",
+      "name" : "db_schema"
+    }, {
+      "id" : "_R53fhWp1Ee2FmbwZhN_VEA",
+      "name" : "db_table"
+    }, {
+      "id" : "_R53fgGp1Ee2FmbwZhN_VEA",
+      "name" : "db_username"
+    }, {
+      "id" : "_j4WIkHSMEe2n0u-SW_dEjA",
+      "name" : "filename"
+    }, {
+      "id" : "_R53fjWp1Ee2FmbwZhN_VEA",
+      "name" : "sf_audience"
+    }, {
+      "id" : "_R53fi2p1Ee2FmbwZhN_VEA",
+      "name" : "sf_certificate_alias"
+    }, {
+      "id" : "_R53fiWp1Ee2FmbwZhN_VEA",
+      "name" : "sf_issuer"
+    }, {
+      "id" : "_R53fjGp1Ee2FmbwZhN_VEA",
+      "name" : "sf_key_store"
+    }, {
+      "id" : "_R53fimp1Ee2FmbwZhN_VEA",
+      "name" : "sf_key_store_password"
+    }, {
+      "id" : "_R53fiGp1Ee2FmbwZhN_VEA",
+      "name" : "sf_subject"
+    }, {
+      "id" : "_P6y2cNqREe2_AO1SWCNPFg",
+      "name" : "sf_url"
+    } ]
+  } ]
+}

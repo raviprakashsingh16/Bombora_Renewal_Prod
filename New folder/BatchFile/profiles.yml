@@ -1,0 +1,14 @@
+bombora:
+  outputs:
+    dev:
+      connect_timeout: 10
+      dbname: ''
+      host: ''
+      keepalives_idle: 0
+      password: ''
+      port: ''
+      schema: bombora_dwh
+      threads: 10
+      type: postgres
+      user: ''
+  target: dev

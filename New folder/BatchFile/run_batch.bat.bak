@@ -1,0 +1,17 @@
+E:
+cd E:\Projects\Bombora_Integration\BatchFile
+cd new_arch_setup 
+python new_arch_db.py %1
+python new_arch_schema.py %1
+cd ..
+
+cd DA_DBT
+python sql_batch.py %1
+python da_dbt_batch.py %1
+cd ..
+
+cd DU
+python du_batch.py %1
+
+pause
+

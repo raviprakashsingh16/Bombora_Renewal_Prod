@@ -1,0 +1,472 @@
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_UAT/BatchFile/DA_DBT/pythian.json
+-1
+62
+
+ f_intent_account_agg_to_surge_json_1.0 started
+Traceback (most recent call last):
+  File "/home/ubuntu/appdata/Bombora_Integration_UAT/BatchFile/DU/du_batch.py", line 37, in <module>
+    if  sys.argv[1] != '':
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/appdata/Bombora_Integration_UAT/BatchFile/DU/du_batch.py", line 121, in <module>
+    result = run(command, stdout=PIPE, stderr=PIPE, text=True)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+OSError: [Errno 8] Exec format error: '/home/ubuntu/appdata/Bombora_Integration_UAT/BatchFile/DU/f_intent_account_agg_to_surge_json_1.0/f_intent_account_agg_to_surge_json/f_intent_account_agg_to_surge_json_run.bat'
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_UAT/BatchFile/DA_DBT/pythian.json
+-1
+62
+
+ f_intent_account_agg_to_surge_json_1.0 started
+0:03:07.395821
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_UAT/BatchFile/DA_DBT/pythian.json
+-1
+62
+{'tenant_id': 'bombora', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_uat', 'db_schema': 'bombora_dwh'}
+{'tenant_id': 'pythian', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_uat', 'db_schema': 'pythian_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/PythianUAT_Org'}
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+-1
+63
+
+ f_intent_account_agg_to_surge_json_1.0 started
+0:00:00.955747
+-1
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+-1
+-1
+63
+
+ f_intent_account_agg_to_surge_json_1.0 started
+0:00:00.949248
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+-1
+63
+-1
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+-1
+-1
+63
+{'tenant_id': 'bombora', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'bombora_dwh'}
+{'tenant_id': 'revature', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'revature_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/RevProd_Org'}
+{'tenant_id': 'nextq', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'nextq_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/NextQProd_Org'}
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+-1
+63
+
+ f_intent_account_agg_to_surge_json_1.0 started
+0:02:50.525288
+-1
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+-1
+-1
+63
+
+ f_intent_account_agg_to_surge_json_1.0 started
+0:01:32.909643
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+-1
+63
+-1
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+-1
+-1
+63
+{'tenant_id': 'bombora', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'bombora_dwh'}
+{'tenant_id': 'revature', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'revature_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/RevProd_Org'}
+{'tenant_id': 'nextq', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'nextq_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/NextQProd_Org'}
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+-1
+63
+
+ f_intent_account_agg_to_surge_json_1.0 started
+0:02:16.603198
+-1
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+-1
+-1
+63
+
+ f_intent_account_agg_to_surge_json_1.0 started
+0:01:19.878116
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+-1
+63
+-1
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+-1
+-1
+63
+{'tenant_id': 'bombora', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'bombora_dwh'}
+{'tenant_id': 'revature', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'revature_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/RevProd_Org'}
+{'tenant_id': 'nextq', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'nextq_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/NextQProd_Org'}
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+-1
+63
+
+ f_intent_account_agg_to_surge_json_1.0 started
+0:02:45.641972
+-1
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+-1
+-1
+63
+
+ f_intent_account_agg_to_surge_json_1.0 started
+0:01:27.510261
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+-1
+63
+-1
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+-1
+-1
+63
+{'tenant_id': 'bombora', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'bombora_dwh'}
+{'tenant_id': 'revature', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'revature_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/RevProd_Org'}
+{'tenant_id': 'nextq', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'nextq_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/NextQProd_Org'}
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+-1
+63
+
+ f_intent_account_agg_to_surge_json_1.0 started
+0:02:53.416211
+-1
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+-1
+-1
+63
+
+ f_intent_account_agg_to_surge_json_1.0 started
+0:01:26.449299
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+-1
+63
+-1
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+-1
+-1
+63
+{'tenant_id': 'bombora', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'bombora_dwh'}
+{'tenant_id': 'revature', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'revature_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/RevProd_Org'}
+{'tenant_id': 'nextq', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'nextq_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/NextQProd_Org'}
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+-1
+63
+
+ f_intent_account_agg_to_surge_json_1.0 started
+0:03:07.228273
+-1
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+-1
+-1
+63
+
+ f_intent_account_agg_to_surge_json_1.0 started
+0:01:43.813277
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+-1
+63
+-1
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+-1
+-1
+63
+{'tenant_id': 'bombora', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'bombora_dwh'}
+{'tenant_id': 'revature', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'revature_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/RevProd_Org'}
+{'tenant_id': 'nextq', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'nextq_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/NextQProd_Org'}
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+-1
+63
+
+ f_intent_account_agg_to_surge_json_1.0 started
+0:03:28.999156
+-1
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+-1
+-1
+63
+
+ f_intent_account_agg_to_surge_json_1.0 started
+0:01:42.985114
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+-1
+63
+-1
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+-1
+-1
+63
+{'tenant_id': 'bombora', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'bombora_dwh'}
+{'tenant_id': 'revature', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'revature_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/RevProd_Org'}
+{'tenant_id': 'nextq', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'nextq_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/NextQProd_Org'}
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+-1
+63
+
+ f_intent_account_agg_to_surge_json_1.0 started
+0:03:33.697939
+-1
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+-1
+-1
+63
+
+ f_intent_account_agg_to_surge_json_1.0 started
+0:01:41.804123
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+-1
+63
+-1
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+-1
+-1
+63
+{'tenant_id': 'bombora', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'bombora_dwh'}
+{'tenant_id': 'revature', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'revature_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/RevProd_Org'}
+{'tenant_id': 'nextq', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'nextq_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/NextQProd_Org'}
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+-1
+63
+
+ f_intent_account_agg_to_surge_json_1.0 started
+0:03:30.543339
+-1
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+-1
+-1
+63
+
+ f_intent_account_agg_to_surge_json_1.0 started
+0:01:44.457825
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+-1
+63
+-1
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+-1
+-1
+63
+{'tenant_id': 'bombora', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'bombora_dwh'}
+{'tenant_id': 'revature', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'revature_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/RevProd_Org'}
+{'tenant_id': 'nextq', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'nextq_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/NextQProd_Org'}
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+-1
+63
+
+ f_intent_account_agg_to_surge_json_1.0 started
+0:03:17.681145
+-1
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+-1
+-1
+63
+
+ f_intent_account_agg_to_surge_json_1.0 started
+0:01:42.433268
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+-1
+63
+-1
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+-1
+-1
+63
+{'tenant_id': 'bombora', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'bombora_dwh'}
+{'tenant_id': 'revature', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'revature_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/RevProd_Org'}
+{'tenant_id': 'nextq', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'nextq_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/NextQProd_Org'}
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+-1
+63
+
+ f_intent_account_agg_to_surge_json_1.0 started
+0:03:15.104122
+-1
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+-1
+-1
+63
+
+ f_intent_account_agg_to_surge_json_1.0 started
+0:00:55.262483
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+-1
+63
+-1
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+-1
+-1
+63
+{'tenant_id': 'bombora', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'bombora_dwh'}
+{'tenant_id': 'revature', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'revature_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/RevProd_Org'}
+{'tenant_id': 'nextq', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'nextq_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/NextQProd_Org'}
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+-1
+63
+
+ f_intent_account_agg_to_surge_json_1.0 started
+0:00:00.935549
+-1
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+-1
+-1
+63
+
+ f_intent_account_agg_to_surge_json_1.0 started
+0:00:00.955844
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+-1
+63
+-1
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+-1
+-1
+63
+{'tenant_id': 'bombora', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'bombora_dwh'}
+{'tenant_id': 'revature', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'revature_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/RevProd_Org'}
+The file does not exist
+{'tenant_id': 'nextq', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'nextq_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/NextQProd_Org'}
+The file does not exist
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+-1
+63
+
+ f_intent_account_agg_to_surge_json_1.0 started
+0:03:23.266242
+-1
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+-1
+-1
+63
+
+ f_intent_account_agg_to_surge_json_1.0 started
+0:01:33.432977
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+-1
+63
+-1
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+-1
+-1
+63
+{'tenant_id': 'bombora', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'bombora_dwh'}
+{'tenant_id': 'revature', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'revature_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/RevProd_Org'}
+{'tenant_id': 'nextq', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'nextq_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/NextQProd_Org'}
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+-1
+63
+
+ f_intent_account_agg_to_surge_json_1.0 started
+0:03:16.971677
+-1
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+-1
+-1
+63
+
+ f_intent_account_agg_to_surge_json_1.0 started
+0:01:27.079881
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+-1
+63
+-1
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+-1
+-1
+63
+{'tenant_id': 'bombora', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'bombora_dwh'}
+{'tenant_id': 'revature', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'revature_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/RevProd_Org'}
+{'tenant_id': 'nextq', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'nextq_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/NextQProd_Org'}
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+-1
+63
+
+ f_intent_account_agg_to_surge_json_1.0 started
+0:00:00.932254
+-1
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+-1
+-1
+63
+
+ f_intent_account_agg_to_surge_json_1.0 started
+0:00:00.920664
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+-1
+63
+-1
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+-1
+-1
+63
+{'tenant_id': 'bombora', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'bombora_dwh'}
+{'tenant_id': 'revature', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'revature_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/RevProd_Org'}
+The file does not exist
+{'tenant_id': 'nextq', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'nextq_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/NextQProd_Org'}
+The file does not exist
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+-1
+63
+
+ f_intent_account_agg_to_surge_json_1.0 started
+0:03:04.633635
+-1
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+-1
+-1
+63
+
+ f_intent_account_agg_to_surge_json_1.0 started
+0:01:23.464157
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+-1
+63
+-1
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+-1
+-1
+63
+{'tenant_id': 'bombora', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'bombora_dwh'}
+{'tenant_id': 'revature', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'revature_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/RevProd_Org'}
+{'tenant_id': 'nextq', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'nextq_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/NextQProd_Org'}

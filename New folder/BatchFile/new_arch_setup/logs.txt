@@ -1,0 +1,132 @@
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+Database created
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+connection to server at "ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com" (172.31.27.48), port 5432 failed: FATAL:  database "master" does not exist
+DB creation, Completed
+get_creds, Done
+connection to server at "ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com" (172.31.27.48), port 5432 failed: FATAL:  database "master" does not exist
+DB creation, Completed
+get_creds, Done
+Database created
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_prod" already exists
+DB creation, Completed

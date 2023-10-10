@@ -1,0 +1,38 @@
+[
+    {
+        "tenant_id": "bombora",
+        "db_driver": "",
+        "db_password": "",
+        "db_host": "",
+        "db_port": "",
+        "db_username": "",
+        "db_database": "",
+        "db_schema": "bombora_dwh"
+    },
+    {
+        "tenant_id": "revature",
+        "db_driver": "",
+        "db_password": "",
+        "db_host": "",
+        "db_port": "",
+        "db_username": "",
+        "db_database": "",
+        "db_schema": "",
+        "account_surge": "y",
+        "lead": "n",
+        "org": "AI/RevProd_Org"
+    },
+    {
+        "tenant_id": "nextq",
+        "db_driver": "",
+        "db_password": "",
+        "db_host": "",
+        "db_port": "",
+        "db_username": "",
+        "db_database": "",
+        "db_schema": "",
+        "account_surge": "y",
+        "lead": "n",
+        "org": "AI/NextQProd_Org"
+    }
+]

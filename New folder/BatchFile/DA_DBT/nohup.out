@@ -1,0 +1,694 @@
+get_creds, Done
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/sql_queries
+updateToDB, Done
+Traceback (most recent call last):
+  File "/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/da_dbt_batch.py", line 9, in <module>
+    from org_secret_mgr import list_path_filenames
+  File "/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/org_secret_mgr.py", line 53, in <module>
+    with open(gs["tenant_id"]+'.json', 'w') as fp:
+KeyError: 'tenant_id'
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+Traceback (most recent call last):
+  File "/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/da_dbt_batch.py", line 9, in <module>
+    from org_secret_mgr import list_path_filenames
+  File "/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/org_secret_mgr.py", line 55, in <module>
+    with open(gs["tenant_id"]+'.json', 'w') as fp:
+KeyError: 'tenant_id'
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+Traceback (most recent call last):
+  File "/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/da_dbt_batch.py", line 9, in <module>
+    from org_secret_mgr import list_path_filenames
+  File "/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/org_secret_mgr.py", line 55, in <module>
+    with open(gs["tenant_id"]+'.json', 'w') as fp:
+KeyError: 'tenant_id'
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+Traceback (most recent call last):
+  File "/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/da_dbt_batch.py", line 9, in <module>
+    from org_secret_mgr import list_path_filenames
+  File "/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/org_secret_mgr.py", line 57, in <module>
+    path_filename=os.path.join(BASE_PATH + '/DA_DBT/', gs["tenant_id"]+'.json')
+KeyError: 'tenant_id'
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json', '/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json']
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json', '/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json']
+2
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.bat', '--context_param filename=/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json']
+Traceback (most recent call last):
+  File "/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/da_dbt_batch.py", line 41, in <module>
+    if  sys.argv[1] != '':
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/da_dbt_batch.py", line 159, in <module>
+    result = run(command, stdout=PIPE, stderr=PIPE, text=True)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+OSError: [Errno 8] Exec format error: '/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.bat'
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json', '/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json']
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json', '/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json']
+2
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.bat', '--context_param filename=/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json']
+Traceback (most recent call last):
+  File "/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/da_dbt_batch.py", line 41, in <module>
+    if  sys.argv[1] != '':
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/da_dbt_batch.py", line 159, in <module>
+    result = run(command, stdout=PIPE, stderr=PIPE, text=True)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+OSError: [Errno 8] Exec format error: '/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.bat'
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json', '/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json']
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json', '/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json']
+2
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.bat', '--context_param filename=/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json']
+Traceback (most recent call last):
+  File "/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/da_dbt_batch.py", line 41, in <module>
+    if  sys.argv[1] != '':
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/da_dbt_batch.py", line 159, in <module>
+    result = run(command, stdout=PIPE, stderr=PIPE, text=True)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+OSError: [Errno 8] Exec format error: '/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.bat'
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json', '/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json']
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json', '/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json']
+2
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh', '--context_param filename=/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json']
+0:00:01.393214
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh', '--context_param filename=/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json']
+0:00:02.175664
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/multitenatization_0.1/multitenatization
+b'f_intent_account\nf_bombora_select_topic\nf_intent_lead\nf_intent_account_agg\nf_intent_lead_agg\nf_intent_account\nf_bombora_select_topic\nf_intent_lead\nf_intent_account_agg\nf_intent_lead_agg\n'
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/bombora
+>>>>>>>>
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/bombora/models
+b"\x1b[0m09:33:30  Running with dbt=1.2.0\n\x1b[0m09:33:30  Unable to do partial parsing because profile has changed\n\x1b[0m09:33:31  [\x1b[33mWARNING\x1b[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.\nThere are 1 unused configuration paths:\n- models.bombora.example\n\n\x1b[0m09:33:31  Found 0 models, 0 tests, 0 snapshots, 0 analyses, 265 macros, 0 operations, 2 seed files, 0 sources, 0 exposures, 0 metrics\n\x1b[0m09:33:31  \n\x1b[0m09:33:31  Concurrency: 10 threads (target='dev')\n\x1b[0m09:33:31  \n\x1b[0m09:33:31  1 of 2 START seed file bombora_dwh.d_pre_loaded_topics ......................... [RUN]\n\x1b[0m09:33:31  2 of 2 START seed file bombora_dwh.d_pre_loaded_topics_old_25_may_2023 ......... [RUN]\n\x1b[0m09:34:00  2 of 2 OK loaded seed file bombora_dwh.d_pre_loaded_topics_old_25_may_2023 ..... [\x1b[32mINSERT 12147\x1b[0m in 29.28s]\n\x1b[0m09:34:01  1 of 2 OK loaded seed file bombora_dwh.d_pre_loaded_topics ..................... [\x1b[32mINSERT 12940\x1b[0m in 30.11s]\n\x1b[0m09:34:01  \n\x1b[0m09:34:01  Finished running 2 seeds in 0 hours 0 minutes and 30.26 seconds (30.26s).\n\x1b[0m09:34:01  \n\x1b[0m09:34:01  \x1b[32mCompleted successfully\x1b[0m\n\x1b[0m09:34:01  \n\x1b[0m09:34:01  Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2\n" >>
+{'tenant_id': 'revature', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod_aws', 'db_schema': 'revature_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/RevProd_Org'}
+<Popen: returncode: 0 args: 'dbt run --exclude f_intent_lead_agg_revature_dw...>
+{'tenant_id': 'nextq', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod_aws', 'db_schema': 'nextq_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/NextQProd_Org'}
+<Popen: returncode: 0 args: 'dbt run --exclude f_intent_lead_agg_nextq_dwh f...>
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json', '/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json']
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json', '/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json']
+2
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh', '--context_param filename=/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json']
+0:00:01.364916
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh', '--context_param filename=/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json']
+0:00:02.148215
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/multitenatization_0.1/multitenatization
+b'f_intent_account\nf_bombora_select_topic\nf_intent_lead\nf_intent_account_agg\nf_intent_lead_agg\nf_intent_account\nf_bombora_select_topic\nf_intent_lead\nf_intent_account_agg\nf_intent_lead_agg\n'
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/bombora
+>>>>>>>>
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/bombora/models
+b"\x1b[0m09:39:18  Running with dbt=1.2.0\n\x1b[0m09:39:18  [\x1b[33mWARNING\x1b[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.\nThere are 1 unused configuration paths:\n- models.bombora.example\n\n\x1b[0m09:39:18  Found 10 models, 0 tests, 0 snapshots, 0 analyses, 265 macros, 0 operations, 2 seed files, 0 sources, 0 exposures, 0 metrics\n\x1b[0m09:39:18  \n\x1b[0m09:39:18  Concurrency: 10 threads (target='dev')\n\x1b[0m09:39:18  \n\x1b[0m09:39:18  1 of 2 START seed file bombora_dwh.d_pre_loaded_topics ......................... [RUN]\n\x1b[0m09:39:18  2 of 2 START seed file bombora_dwh.d_pre_loaded_topics_old_25_may_2023 ......... [RUN]\n\x1b[0m09:39:47  2 of 2 OK loaded seed file bombora_dwh.d_pre_loaded_topics_old_25_may_2023 ..... [\x1b[32mINSERT 12147\x1b[0m in 28.58s]\n\x1b[0m09:39:47  1 of 2 OK loaded seed file bombora_dwh.d_pre_loaded_topics ..................... [\x1b[32mINSERT 12940\x1b[0m in 29.48s]\n\x1b[0m09:39:47  \n\x1b[0m09:39:47  Finished running 2 seeds in 0 hours 0 minutes and 29.62 seconds (29.62s).\n\x1b[0m09:39:47  \n\x1b[0m09:39:47  \x1b[32mCompleted successfully\x1b[0m\n\x1b[0m09:39:47  \n\x1b[0m09:39:47  Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2\n" >>
+{'tenant_id': 'revature', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod_aws', 'db_schema': 'revature_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/RevProd_Org'}
+<Popen: returncode: 1 args: 'dbt run --exclude f_intent_lead_agg_revature_dw...>
+{'tenant_id': 'nextq', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod_aws', 'db_schema': 'nextq_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/NextQProd_Org'}
+<Popen: returncode: 1 args: 'dbt run --exclude f_intent_lead_agg_nextq_dwh f...>
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/revature.json
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/revature.json', '/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json']
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/revature.json
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/revature.json', '/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json']
+2
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/revature.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh', '--context_param filename=/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/revature.json']
+0:00:01.397688
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh', '--context_param filename=/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json']
+0:00:02.186132
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/multitenatization_0.1/multitenatization
+b'f_intent_account\nf_bombora_select_topic\nf_intent_lead\nf_intent_account_agg\nf_intent_lead_agg\nf_intent_account\nf_bombora_select_topic\nf_intent_lead\nf_intent_account_agg\nf_intent_lead_agg\n'
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/bombora
+>>>>>>>>
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/bombora/models
+b"\x1b[0m10:04:24  Running with dbt=1.2.0\n\x1b[0m10:04:24  [\x1b[33mWARNING\x1b[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.\nThere are 1 unused configuration paths:\n- models.bombora.example\n\n\x1b[0m10:04:24  Found 10 models, 0 tests, 0 snapshots, 0 analyses, 265 macros, 0 operations, 2 seed files, 0 sources, 0 exposures, 0 metrics\n\x1b[0m10:04:24  \n\x1b[0m10:04:24  Concurrency: 10 threads (target='dev')\n\x1b[0m10:04:24  \n\x1b[0m10:04:24  1 of 2 START seed file bombora_dwh.d_pre_loaded_topics ......................... [RUN]\n\x1b[0m10:04:24  2 of 2 START seed file bombora_dwh.d_pre_loaded_topics_old_25_may_2023 ......... [RUN]\n\x1b[0m10:04:52  2 of 2 OK loaded seed file bombora_dwh.d_pre_loaded_topics_old_25_may_2023 ..... [\x1b[32mINSERT 12147\x1b[0m in 28.45s]\n\x1b[0m10:04:53  1 of 2 OK loaded seed file bombora_dwh.d_pre_loaded_topics ..................... [\x1b[32mINSERT 12940\x1b[0m in 29.10s]\n\x1b[0m10:04:53  \n\x1b[0m10:04:53  Finished running 2 seeds in 0 hours 0 minutes and 29.25 seconds (29.25s).\n\x1b[0m10:04:53  \n\x1b[0m10:04:53  \x1b[32mCompleted successfully\x1b[0m\n\x1b[0m10:04:53  \n\x1b[0m10:04:53  Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2\n" >>
+{'tenant_id': 'revature', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod_aws', 'db_schema': 'revature_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/RevProd_Org'}
+<Popen: returncode: 1 args: 'dbt run --exclude f_intent_lead_agg_revature_dw...>
+{'tenant_id': 'nextq', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod_aws', 'db_schema': 'nextq_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/NextQProd_Org'}
+<Popen: returncode: 1 args: 'dbt run --exclude f_intent_lead_agg_nextq_dwh f...>
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/revature.json
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/revature.json', '/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json']
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/revature.json
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/revature.json', '/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json']
+2
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/revature.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh', '--context_param filename=/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/revature.json']
+0:00:07.310334
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh', '--context_param filename=/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json']
+0:00:14.346391
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/multitenatization_0.1/multitenatization
+b'f_intent_account\nf_bombora_select_topic\nf_intent_lead\nf_intent_account_agg\nf_intent_lead_agg\nf_intent_account\nf_bombora_select_topic\nf_intent_lead\nf_intent_account_agg\nf_intent_lead_agg\n'
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/bombora
+>>>>>>>>
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/bombora/models
+b"\x1b[0m06:15:29  Running with dbt=1.2.0\n\x1b[0m06:15:29  [\x1b[33mWARNING\x1b[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.\nThere are 1 unused configuration paths:\n- models.bombora.example\n\n\x1b[0m06:15:29  Found 10 models, 0 tests, 0 snapshots, 0 analyses, 265 macros, 0 operations, 2 seed files, 0 sources, 0 exposures, 0 metrics\n\x1b[0m06:15:29  \n\x1b[0m06:15:29  Concurrency: 10 threads (target='dev')\n\x1b[0m06:15:29  \n\x1b[0m06:15:29  1 of 2 START seed file bombora_dwh.d_pre_loaded_topics ......................... [RUN]\n\x1b[0m06:15:29  2 of 2 START seed file bombora_dwh.d_pre_loaded_topics_old_25_may_2023 ......... [RUN]\n\x1b[0m06:15:57  2 of 2 OK loaded seed file bombora_dwh.d_pre_loaded_topics_old_25_may_2023 ..... [\x1b[32mINSERT 12147\x1b[0m in 27.97s]\n\x1b[0m06:15:58  1 of 2 OK loaded seed file bombora_dwh.d_pre_loaded_topics ..................... [\x1b[32mINSERT 12940\x1b[0m in 28.83s]\n\x1b[0m06:15:58  \n\x1b[0m06:15:58  Finished running 2 seeds in 0 hours 0 minutes and 28.97 seconds (28.97s).\n\x1b[0m06:15:58  \n\x1b[0m06:15:58  \x1b[32mCompleted successfully\x1b[0m\n\x1b[0m06:15:58  \n\x1b[0m06:15:58  Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2\n" >>
+{'tenant_id': 'revature', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod_aws', 'db_schema': 'revature_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/RevProd_Org'}
+<Popen: returncode: 0 args: 'dbt run --exclude f_intent_lead_agg_revature_dw...>
+{'tenant_id': 'nextq', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod_aws', 'db_schema': 'nextq_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/NextQProd_Org'}
+<Popen: returncode: 1 args: 'dbt run --exclude f_intent_lead_agg_nextq_dwh f...>
+get_creds, Done
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/sql_queries
+updateToDB, Done
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/revature.json
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/revature.json', '/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json']
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/revature.json
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/revature.json', '/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json']
+2
+Following try path
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/revature.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh', '--context_param filename=/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/revature.json']
+0:00:06.976206
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/multitenatization_0.1/multitenatization
+b'f_intent_account\nf_bombora_select_topic\nf_intent_lead\nf_intent_account_agg\nf_intent_lead_agg\nf_intent_account\nf_bombora_select_topic\nf_intent_lead\nf_intent_account_agg\nf_intent_lead_agg\n'
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/bombora
+>>>>>>>>
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/bombora/models
+b"\x1b[0m10:32:58  Running with dbt=1.2.0\n\x1b[0m10:32:58  [\x1b[33mWARNING\x1b[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.\nThere are 1 unused configuration paths:\n- models.bombora.example\n\n\x1b[0m10:32:58  Found 10 models, 0 tests, 0 snapshots, 0 analyses, 265 macros, 0 operations, 2 seed files, 0 sources, 0 exposures, 0 metrics\n\x1b[0m10:32:58  \n\x1b[0m10:32:58  Concurrency: 10 threads (target='dev')\n\x1b[0m10:32:58  \n\x1b[0m10:32:58  1 of 2 START seed file bombora_dwh.d_pre_loaded_topics ......................... [RUN]\n\x1b[0m10:32:58  2 of 2 START seed file bombora_dwh.d_pre_loaded_topics_old_25_may_2023 ......... [RUN]\n\x1b[0m10:33:26  2 of 2 OK loaded seed file bombora_dwh.d_pre_loaded_topics_old_25_may_2023 ..... [\x1b[32mINSERT 12147\x1b[0m in 27.91s]\n\x1b[0m10:33:27  1 of 2 OK loaded seed file bombora_dwh.d_pre_loaded_topics ..................... [\x1b[32mINSERT 12940\x1b[0m in 28.72s]\n\x1b[0m10:33:27  \n\x1b[0m10:33:27  Finished running 2 seeds in 0 hours 0 minutes and 28.87 seconds (28.87s).\n\x1b[0m10:33:27  \n\x1b[0m10:33:27  \x1b[32mCompleted successfully\x1b[0m\n\x1b[0m10:33:27  \n\x1b[0m10:33:27  Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2\n" >>
+{'tenant_id': 'revature', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod_aws', 'db_schema': 'revature_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/RevProd_Org'}
+<Popen: returncode: 0 args: 'dbt run --exclude f_intent_lead_agg_revature_dw...>
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/revature.json
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/revature.json', '/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json']
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/revature.json
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/revature.json', '/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json']
+2
+Following try path
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh', '--context_param filename=/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json']
+0:00:02.549962
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/multitenatization_0.1/multitenatization
+b'f_intent_account\nf_bombora_select_topic\nf_intent_lead\nf_intent_account_agg\nf_intent_lead_agg\nf_intent_account\nf_bombora_select_topic\nf_intent_lead\nf_intent_account_agg\nf_intent_lead_agg\n'
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/bombora
+>>>>>>>>
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/bombora/models
+b"\x1b[0m10:38:48  Running with dbt=1.2.0\n\x1b[0m10:38:48  [\x1b[33mWARNING\x1b[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.\nThere are 1 unused configuration paths:\n- models.bombora.example\n\n\x1b[0m10:38:48  Found 10 models, 0 tests, 0 snapshots, 0 analyses, 265 macros, 0 operations, 2 seed files, 0 sources, 0 exposures, 0 metrics\n\x1b[0m10:38:48  \n\x1b[0m10:38:48  Concurrency: 10 threads (target='dev')\n\x1b[0m10:38:48  \n\x1b[0m10:38:48  1 of 2 START seed file bombora_dwh.d_pre_loaded_topics ......................... [RUN]\n\x1b[0m10:38:48  2 of 2 START seed file bombora_dwh.d_pre_loaded_topics_old_25_may_2023 ......... [RUN]\n\x1b[0m10:39:17  2 of 2 OK loaded seed file bombora_dwh.d_pre_loaded_topics_old_25_may_2023 ..... [\x1b[32mINSERT 12147\x1b[0m in 29.01s]\n\x1b[0m10:39:17  1 of 2 OK loaded seed file bombora_dwh.d_pre_loaded_topics ..................... [\x1b[32mINSERT 12940\x1b[0m in 29.52s]\n\x1b[0m10:39:18  \n\x1b[0m10:39:18  Finished running 2 seeds in 0 hours 0 minutes and 29.66 seconds (29.66s).\n\x1b[0m10:39:18  \n\x1b[0m10:39:18  \x1b[32mCompleted successfully\x1b[0m\n\x1b[0m10:39:18  \n\x1b[0m10:39:18  Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2\n" >>
+{'tenant_id': 'nextq', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod_aws', 'db_schema': 'nextq_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/NextQProd_Org'}
+<Popen: returncode: 1 args: 'dbt run --exclude f_intent_lead_agg_nextq_dwh f...>
+get_creds, Done
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/sql_queries
+updateToDB, Done
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/revature.json
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/revature.json', '/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json']
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/revature.json
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/revature.json', '/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json']
+2
+Following try path
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/revature.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh', '--context_param filename=/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/revature.json']
+0:00:06.267106
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/multitenatization_0.1/multitenatization
+b'f_intent_account\nf_bombora_select_topic\nf_intent_lead\nf_intent_account_agg\nf_intent_lead_agg\nf_intent_account\nf_bombora_select_topic\nf_intent_lead\nf_intent_account_agg\nf_intent_lead_agg\n'
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/bombora
+>>>>>>>>
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/bombora/models
+b"\x1b[0m11:37:26  Running with dbt=1.2.0\n\x1b[0m11:37:26  [\x1b[33mWARNING\x1b[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.\nThere are 1 unused configuration paths:\n- models.bombora.example\n\n\x1b[0m11:37:26  Found 10 models, 0 tests, 0 snapshots, 0 analyses, 265 macros, 0 operations, 2 seed files, 0 sources, 0 exposures, 0 metrics\n\x1b[0m11:37:26  \n\x1b[0m11:37:26  Concurrency: 10 threads (target='dev')\n\x1b[0m11:37:26  \n\x1b[0m11:37:26  1 of 2 START seed file bombora_dwh.d_pre_loaded_topics ......................... [RUN]\n\x1b[0m11:37:26  2 of 2 START seed file bombora_dwh.d_pre_loaded_topics_old_25_may_2023 ......... [RUN]\n\x1b[0m11:37:54  2 of 2 OK loaded seed file bombora_dwh.d_pre_loaded_topics_old_25_may_2023 ..... [\x1b[32mINSERT 12147\x1b[0m in 27.86s]\n\x1b[0m11:37:55  1 of 2 OK loaded seed file bombora_dwh.d_pre_loaded_topics ..................... [\x1b[32mINSERT 12940\x1b[0m in 28.68s]\n\x1b[0m11:37:55  \n\x1b[0m11:37:55  Finished running 2 seeds in 0 hours 0 minutes and 28.83 seconds (28.83s).\n\x1b[0m11:37:55  \n\x1b[0m11:37:55  \x1b[32mCompleted successfully\x1b[0m\n\x1b[0m11:37:55  \n\x1b[0m11:37:55  Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2\n" >>
+{'tenant_id': 'revature', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod_aws', 'db_schema': 'revature_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/RevProd_Org'}
+<Popen: returncode: 0 args: 'dbt run --exclude f_intent_lead_agg_revature_dw...>
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/revature.json
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/revature.json', '/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json']
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/revature.json
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/revature.json', '/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json']
+2
+Following try path
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh', '--context_param filename=/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json']
+0:00:08.855848
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/multitenatization_0.1/multitenatization
+b'f_intent_account\nf_bombora_select_topic\nf_intent_lead\nf_intent_account_agg\nf_intent_lead_agg\nf_intent_account\nf_bombora_select_topic\nf_intent_lead\nf_intent_account_agg\nf_intent_lead_agg\n'
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/bombora
+>>>>>>>>
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/bombora/models
+b"\x1b[0m10:12:08  Running with dbt=1.2.0\n\x1b[0m10:12:08  [\x1b[33mWARNING\x1b[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.\nThere are 1 unused configuration paths:\n- models.bombora.example\n\n\x1b[0m10:12:08  Found 10 models, 0 tests, 0 snapshots, 0 analyses, 265 macros, 0 operations, 2 seed files, 0 sources, 0 exposures, 0 metrics\n\x1b[0m10:12:08  \n\x1b[0m10:12:08  Concurrency: 10 threads (target='dev')\n\x1b[0m10:12:08  \n\x1b[0m10:12:08  1 of 2 START seed file bombora_dwh.d_pre_loaded_topics ......................... [RUN]\n\x1b[0m10:12:08  2 of 2 START seed file bombora_dwh.d_pre_loaded_topics_old_25_may_2023 ......... [RUN]\n\x1b[0m10:12:37  2 of 2 OK loaded seed file bombora_dwh.d_pre_loaded_topics_old_25_may_2023 ..... [\x1b[32mINSERT 12147\x1b[0m in 28.30s]\n\x1b[0m10:12:38  1 of 2 OK loaded seed file bombora_dwh.d_pre_loaded_topics ..................... [\x1b[32mINSERT 12940\x1b[0m in 29.11s]\n\x1b[0m10:12:38  \n\x1b[0m10:12:38  Finished running 2 seeds in 0 hours 0 minutes and 29.26 seconds (29.26s).\n\x1b[0m10:12:38  \n\x1b[0m10:12:38  \x1b[32mCompleted successfully\x1b[0m\n\x1b[0m10:12:38  \n\x1b[0m10:12:38  Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2\n" >>
+{'tenant_id': 'nextq', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod_aws', 'db_schema': 'nextq_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/NextQProd_Org'}
+<Popen: returncode: 1 args: 'dbt run --exclude f_intent_lead_agg_nextq_dwh f...>
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/revature.json
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/revature.json', '/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json']
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/revature.json
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/revature.json', '/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json']
+2
+Following try path
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh', '--context_param filename=/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/nextq.json']
+0:00:07.564210
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/multitenatization_0.1/multitenatization
+b'f_intent_account\nf_bombora_select_topic\nf_intent_lead\nf_intent_account_agg\nf_intent_lead_agg\nf_intent_account\nf_bombora_select_topic\nf_intent_lead\nf_intent_account_agg\nf_intent_lead_agg\n'
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/bombora
+>>>>>>>>
+/home/ubuntu/appdata/Bombora_Integration_AWS/BatchFile/DA_DBT/bombora/models
+b"\x1b[0m10:19:27  Running with dbt=1.2.0\n\x1b[0m10:19:28  [\x1b[33mWARNING\x1b[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.\nThere are 1 unused configuration paths:\n- models.bombora.example\n\n\x1b[0m10:19:28  Found 10 models, 0 tests, 0 snapshots, 0 analyses, 265 macros, 0 operations, 2 seed files, 0 sources, 0 exposures, 0 metrics\n\x1b[0m10:19:28  \n\x1b[0m10:19:28  Concurrency: 10 threads (target='dev')\n\x1b[0m10:19:28  \n\x1b[0m10:19:28  1 of 2 START seed file bombora_dwh.d_pre_loaded_topics ......................... [RUN]\n\x1b[0m10:19:28  2 of 2 START seed file bombora_dwh.d_pre_loaded_topics_old_25_may_2023 ......... [RUN]\n\x1b[0m10:19:56  2 of 2 OK loaded seed file bombora_dwh.d_pre_loaded_topics_old_25_may_2023 ..... [\x1b[32mINSERT 12147\x1b[0m in 28.15s]\n\x1b[0m10:19:57  1 of 2 OK loaded seed file bombora_dwh.d_pre_loaded_topics ..................... [\x1b[32mINSERT 12940\x1b[0m in 28.87s]\n\x1b[0m10:19:57  \n\x1b[0m10:19:57  Finished running 2 seeds in 0 hours 0 minutes and 29.00 seconds (29.00s).\n\x1b[0m10:19:57  \n\x1b[0m10:19:57  \x1b[32mCompleted successfully\x1b[0m\n\x1b[0m10:19:57  \n\x1b[0m10:19:57  Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2\n" >>
+{'tenant_id': 'nextq', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod_aws', 'db_schema': 'nextq_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/NextQProd_Org'}
+<Popen: returncode: 0 args: 'dbt run --exclude f_intent_lead_agg_nextq_dwh f...>
+Traceback (most recent call last):
+  File "/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/sql_batch.py", line 10, in <module>
+    with open(BASE_PATH + "/multitenant.json", "r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/appdata//BatchFile/multitenant.json'
+get_creds, Done
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/sql_queries
+updateToDB, Done
+get_creds, Done
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/sql_queries
+updateToDB, Done
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json', '/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json']
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json', '/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json']
+2
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+Traceback (most recent call last):
+  File "/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/da_dbt_batch.py", line 41, in <module>
+    if  sys.argv[1] != '':
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/da_dbt_batch.py", line 154, in <module>
+    os.chdir(script_dir_path)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization'
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json', '/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json']
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json', '/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json']
+2
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh', '--context_param filename=/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json']
+Traceback (most recent call last):
+  File "/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/da_dbt_batch.py", line 41, in <module>
+    if  sys.argv[1] != '':
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/da_dbt_batch.py", line 159, in <module>
+    result = run(command, stdout=PIPE, stderr=PIPE, text=True)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh'
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json', '/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json']
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json', '/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json']
+2
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh', '--context_param filename=/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json']
+0:00:00.691209
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh', '--context_param filename=/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json']
+0:00:00.775339
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization
+b'f_intent_account\nf_bombora_select_topic\nf_intent_lead\nf_intent_account_agg\nf_intent_lead_agg\nf_intent_account\nf_bombora_select_topic\nf_intent_lead\nf_intent_account_agg\nf_intent_lead_agg\n'
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/bombora
+>>>>>>>>
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/bombora/models
+b"\x1b[0m17:34:44  Running with dbt=1.2.0\n\x1b[0m17:34:45  [\x1b[33mWARNING\x1b[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.\nThere are 1 unused configuration paths:\n- models.bombora.example\n\n\x1b[0m17:34:45  Found 10 models, 0 tests, 0 snapshots, 0 analyses, 265 macros, 0 operations, 3 seed files, 0 sources, 0 exposures, 0 metrics\n\x1b[0m17:34:45  \n\x1b[0m17:34:45  Concurrency: 10 threads (target='dev')\n\x1b[0m17:34:45  \n\x1b[0m17:34:45  1 of 3 START seed file bombora_dwh.d_pre_loaded_topics ......................... [RUN]\n\x1b[0m17:34:45  2 of 3 START seed file bombora_dwh.d_pre_loaded_topics_old_23_june2023 ......... [RUN]\n\x1b[0m17:34:45  3 of 3 START seed file bombora_dwh.d_pre_loaded_topics_old_25_may_2023 ......... [RUN]\n\x1b[0m17:35:28  3 of 3 OK loaded seed file bombora_dwh.d_pre_loaded_topics_old_25_may_2023 ..... [\x1b[32mINSERT 12147\x1b[0m in 43.37s]\n\x1b[0m17:35:29  2 of 3 OK loaded seed file bombora_dwh.d_pre_loaded_topics_old_23_june2023 ..... [\x1b[32mINSERT 12940\x1b[0m in 44.56s]\n\x1b[0m17:35:30  1 of 3 OK loaded seed file bombora_dwh.d_pre_loaded_topics ..................... [\x1b[32mINSERT 13495\x1b[0m in 45.09s]\n\x1b[0m17:35:30  \n\x1b[0m17:35:30  Finished running 3 seeds in 0 hours 0 minutes and 45.26 seconds (45.26s).\n\x1b[0m17:35:30  \n\x1b[0m17:35:30  \x1b[32mCompleted successfully\x1b[0m\n\x1b[0m17:35:30  \n\x1b[0m17:35:30  Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3\n" >>
+{'tenant_id': 'revature', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'revature_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/RevProd_Org'}
+<Popen: returncode: 0 args: 'dbt run --exclude f_intent_lead_agg_revature_dw...>
+{'tenant_id': 'nextq', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'nextq_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/NextQProd_Org'}
+<Popen: returncode: 0 args: 'dbt run --exclude f_intent_lead_agg_nextq_dwh f...>
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json', '/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json']
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json', '/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json']
+2
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh', '--context_param filename=/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json']
+0:00:01.650591
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh', '--context_param filename=/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json']
+0:00:02.705350
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization
+b'f_intent_account\nf_bombora_select_topic\nf_intent_lead\nf_intent_account_agg\nf_intent_lead_agg\nf_intent_account\nf_bombora_select_topic\nf_intent_lead\nf_intent_account_agg\nf_intent_lead_agg\n'
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/bombora
+>>>>>>>>
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/bombora/models
+b"\x1b[0m06:04:09  Running with dbt=1.2.0\n\x1b[0m06:04:09  [\x1b[33mWARNING\x1b[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.\nThere are 1 unused configuration paths:\n- models.bombora.example\n\n\x1b[0m06:04:09  Found 10 models, 0 tests, 0 snapshots, 0 analyses, 265 macros, 0 operations, 3 seed files, 0 sources, 0 exposures, 0 metrics\n\x1b[0m06:04:09  \n\x1b[0m06:04:09  Concurrency: 10 threads (target='dev')\n\x1b[0m06:04:09  \n\x1b[0m06:04:09  1 of 3 START seed file bombora_dwh.d_pre_loaded_topics ......................... [RUN]\n\x1b[0m06:04:09  2 of 3 START seed file bombora_dwh.d_pre_loaded_topics_old_23_june2023 ......... [RUN]\n\x1b[0m06:04:09  3 of 3 START seed file bombora_dwh.d_pre_loaded_topics_old_25_may_2023 ......... [RUN]\n\x1b[0m06:04:52  3 of 3 OK loaded seed file bombora_dwh.d_pre_loaded_topics_old_25_may_2023 ..... [\x1b[32mINSERT 12147\x1b[0m in 42.41s]\n\x1b[0m06:04:52  2 of 3 OK loaded seed file bombora_dwh.d_pre_loaded_topics_old_23_june2023 ..... [\x1b[32mINSERT 12940\x1b[0m in 43.29s]\n\x1b[0m06:04:53  1 of 3 OK loaded seed file bombora_dwh.d_pre_loaded_topics ..................... [\x1b[32mINSERT 13495\x1b[0m in 44.23s]\n\x1b[0m06:04:53  \n\x1b[0m06:04:53  Finished running 3 seeds in 0 hours 0 minutes and 44.37 seconds (44.37s).\n\x1b[0m06:04:53  \n\x1b[0m06:04:53  \x1b[32mCompleted successfully\x1b[0m\n\x1b[0m06:04:53  \n\x1b[0m06:04:53  Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3\n" >>
+{'tenant_id': 'revature', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'revature_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/RevProd_Org'}
+<Popen: returncode: 0 args: 'dbt run --exclude f_intent_lead_agg_revature_dw...>
+{'tenant_id': 'nextq', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'nextq_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/NextQProd_Org'}
+<Popen: returncode: 0 args: 'dbt run --exclude f_intent_lead_agg_nextq_dwh f...>
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json', '/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json']
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json', '/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json']
+2
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh', '--context_param filename=/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json']
+0:00:06.070855
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh', '--context_param filename=/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json']
+0:00:14.633062
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization
+b'f_intent_account\nf_bombora_select_topic\nf_intent_lead\nf_intent_account_agg\nf_intent_lead_agg\nf_intent_account\nf_bombora_select_topic\nf_intent_lead\nf_intent_account_agg\nf_intent_lead_agg\n'
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/bombora
+>>>>>>>>
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/bombora/models
+b"\x1b[0m06:33:50  Running with dbt=1.2.0\n\x1b[0m06:33:50  [\x1b[33mWARNING\x1b[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.\nThere are 1 unused configuration paths:\n- models.bombora.example\n\n\x1b[0m06:33:50  Found 10 models, 0 tests, 0 snapshots, 0 analyses, 265 macros, 0 operations, 3 seed files, 0 sources, 0 exposures, 0 metrics\n\x1b[0m06:33:50  \n\x1b[0m06:33:51  Concurrency: 10 threads (target='dev')\n\x1b[0m06:33:51  \n\x1b[0m06:33:51  1 of 3 START seed file bombora_dwh.d_pre_loaded_topics ......................... [RUN]\n\x1b[0m06:33:51  2 of 3 START seed file bombora_dwh.d_pre_loaded_topics_old_23_june2023 ......... [RUN]\n\x1b[0m06:33:51  3 of 3 START seed file bombora_dwh.d_pre_loaded_topics_old_25_may_2023 ......... [RUN]\n\x1b[0m06:34:32  3 of 3 OK loaded seed file bombora_dwh.d_pre_loaded_topics_old_25_may_2023 ..... [\x1b[32mINSERT 12147\x1b[0m in 41.55s]\n\x1b[0m06:34:34  2 of 3 OK loaded seed file bombora_dwh.d_pre_loaded_topics_old_23_june2023 ..... [\x1b[32mINSERT 12940\x1b[0m in 43.74s]\n\x1b[0m06:34:35  1 of 3 OK loaded seed file bombora_dwh.d_pre_loaded_topics ..................... [\x1b[32mINSERT 13495\x1b[0m in 44.41s]\n\x1b[0m06:34:35  \n\x1b[0m06:34:35  Finished running 3 seeds in 0 hours 0 minutes and 44.56 seconds (44.56s).\n\x1b[0m06:34:35  \n\x1b[0m06:34:35  \x1b[32mCompleted successfully\x1b[0m\n\x1b[0m06:34:35  \n\x1b[0m06:34:35  Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3\n" >>
+{'tenant_id': 'revature', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'revature_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/RevProd_Org'}
+<Popen: returncode: 0 args: 'dbt run --exclude f_intent_lead_agg_revature_dw...>
+{'tenant_id': 'nextq', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'nextq_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/NextQProd_Org'}
+<Popen: returncode: 0 args: 'dbt run --exclude f_intent_lead_agg_nextq_dwh f...>
+get_creds, Done
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/sql_queries
+updateToDB, Done
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json', '/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json']
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json', '/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json']
+2
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh', '--context_param filename=/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json']
+0:00:06.661806
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh', '--context_param filename=/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json']
+0:00:15.399522
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization
+b'f_intent_account\nf_bombora_select_topic\nf_intent_lead\nf_intent_account_agg\nf_intent_lead_agg\nf_intent_account\nf_bombora_select_topic\nf_intent_lead\nf_intent_account_agg\nf_intent_lead_agg\n'
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/bombora
+>>>>>>>>
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/bombora/models
+b"\x1b[0m16:41:45  Running with dbt=1.2.0\n\x1b[0m16:41:45  [\x1b[33mWARNING\x1b[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.\nThere are 1 unused configuration paths:\n- models.bombora.example\n\n\x1b[0m16:41:45  Found 10 models, 0 tests, 0 snapshots, 0 analyses, 265 macros, 0 operations, 3 seed files, 0 sources, 0 exposures, 0 metrics\n\x1b[0m16:41:45  \n\x1b[0m16:41:45  Concurrency: 10 threads (target='dev')\n\x1b[0m16:41:45  \n\x1b[0m16:41:45  1 of 3 START seed file bombora_dwh.d_pre_loaded_topics ......................... [RUN]\n\x1b[0m16:41:45  2 of 3 START seed file bombora_dwh.d_pre_loaded_topics_old_23_june2023 ......... [RUN]\n\x1b[0m16:41:45  3 of 3 START seed file bombora_dwh.d_pre_loaded_topics_old_25_may_2023 ......... [RUN]\n\x1b[0m16:42:29  3 of 3 OK loaded seed file bombora_dwh.d_pre_loaded_topics_old_25_may_2023 ..... [\x1b[32mINSERT 12147\x1b[0m in 43.54s]\n\x1b[0m16:42:31  2 of 3 OK loaded seed file bombora_dwh.d_pre_loaded_topics_old_23_june2023 ..... [\x1b[32mINSERT 12940\x1b[0m in 45.81s]\n\x1b[0m16:42:31  1 of 3 OK loaded seed file bombora_dwh.d_pre_loaded_topics ..................... [\x1b[32mINSERT 13495\x1b[0m in 46.07s]\n\x1b[0m16:42:31  \n\x1b[0m16:42:31  Finished running 3 seeds in 0 hours 0 minutes and 46.25 seconds (46.25s).\n\x1b[0m16:42:31  \n\x1b[0m16:42:31  \x1b[32mCompleted successfully\x1b[0m\n\x1b[0m16:42:31  \n\x1b[0m16:42:31  Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3\n" >>
+{'tenant_id': 'revature', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'revature_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/RevProd_Org'}
+<Popen: returncode: 0 args: 'dbt run --exclude f_intent_lead_agg_revature_dw...>
+{'tenant_id': 'nextq', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'nextq_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/NextQProd_Org'}
+<Popen: returncode: 0 args: 'dbt run --exclude f_intent_lead_agg_nextq_dwh f...>
+get_creds, Done
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/sql_queries
+updateToDB, Done
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json', '/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json']
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json', '/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json']
+2
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh', '--context_param filename=/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json']
+0:00:06.181093
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh', '--context_param filename=/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json']
+0:00:13.842753
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization
+b'f_intent_account\nf_bombora_select_topic\nf_intent_lead\nf_intent_account_agg\nf_intent_lead_agg\nf_intent_account\nf_bombora_select_topic\nf_intent_lead\nf_intent_account_agg\nf_intent_lead_agg\n'
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/bombora
+>>>>>>>>
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/bombora/models
+b"\x1b[0m16:53:28  Running with dbt=1.2.0\n\x1b[0m16:53:29  [\x1b[33mWARNING\x1b[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.\nThere are 1 unused configuration paths:\n- models.bombora.example\n\n\x1b[0m16:53:29  Found 10 models, 0 tests, 0 snapshots, 0 analyses, 265 macros, 0 operations, 4 seed files, 0 sources, 0 exposures, 0 metrics\n\x1b[0m16:53:29  \n\x1b[0m16:53:29  Concurrency: 10 threads (target='dev')\n\x1b[0m16:53:29  \n\x1b[0m16:53:29  1 of 4 START seed file bombora_dwh.d_pre_loaded_topics ......................... [RUN]\n\x1b[0m16:53:29  2 of 4 START seed file bombora_dwh.d_pre_loaded_topics_old_23_june2023 ......... [RUN]\n\x1b[0m16:53:29  3 of 4 START seed file bombora_dwh.d_pre_loaded_topics_old_25_may_2023 ......... [RUN]\n\x1b[0m16:53:29  4 of 4 START seed file bombora_dwh.d_pre_loaded_topics_old_4jul2023 ............ [RUN]\n\x1b[0m16:54:25  3 of 4 OK loaded seed file bombora_dwh.d_pre_loaded_topics_old_25_may_2023 ..... [\x1b[32mINSERT 12147\x1b[0m in 56.49s]\n\x1b[0m16:54:29  2 of 4 OK loaded seed file bombora_dwh.d_pre_loaded_topics_old_23_june2023 ..... [\x1b[32mINSERT 12940\x1b[0m in 60.54s]\n\x1b[0m16:54:31  4 of 4 OK loaded seed file bombora_dwh.d_pre_loaded_topics_old_4jul2023 ........ [\x1b[32mINSERT 13495\x1b[0m in 62.16s]\n\x1b[0m16:54:31  1 of 4 OK loaded seed file bombora_dwh.d_pre_loaded_topics ..................... [\x1b[32mINSERT 13495\x1b[0m in 62.22s]\n\x1b[0m16:54:31  \n\x1b[0m16:54:31  Finished running 4 seeds in 0 hours 1 minutes and 2.37 seconds (62.37s).\n\x1b[0m16:54:31  \n\x1b[0m16:54:31  \x1b[32mCompleted successfully\x1b[0m\n\x1b[0m16:54:31  \n\x1b[0m16:54:31  Done. PASS=4 WARN=0 ERROR=0 SKIP=0 TOTAL=4\n" >>
+{'tenant_id': 'revature', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'revature_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/RevProd_Org'}
+<Popen: returncode: 0 args: 'dbt run --exclude f_intent_lead_agg_revature_dw...>
+{'tenant_id': 'nextq', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'nextq_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/NextQProd_Org'}
+<Popen: returncode: 0 args: 'dbt run --exclude f_intent_lead_agg_nextq_dwh f...>
+get_creds, Done
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/sql_queries
+updateToDB, Done
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json', '/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json']
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json', '/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json']
+2
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh', '--context_param filename=/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json']
+0:00:06.204857
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh', '--context_param filename=/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json']
+0:00:14.063640
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization
+b'f_intent_account\nf_bombora_select_topic\nf_intent_lead\nf_intent_account_agg\nf_intent_lead_agg\nf_intent_account\nf_bombora_select_topic\nf_intent_lead\nf_intent_account_agg\nf_intent_lead_agg\n'
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/bombora
+>>>>>>>>
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/bombora/models
+b"\x1b[0m14:27:25  Running with dbt=1.2.0\n\x1b[0m14:27:25  [\x1b[33mWARNING\x1b[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.\nThere are 1 unused configuration paths:\n- models.bombora.example\n\n\x1b[0m14:27:25  Found 10 models, 0 tests, 0 snapshots, 0 analyses, 265 macros, 0 operations, 4 seed files, 0 sources, 0 exposures, 0 metrics\n\x1b[0m14:27:25  \n\x1b[0m14:27:25  Concurrency: 10 threads (target='dev')\n\x1b[0m14:27:25  \n\x1b[0m14:27:25  1 of 4 START seed file bombora_dwh.d_pre_loaded_topics ......................... [RUN]\n\x1b[0m14:27:25  2 of 4 START seed file bombora_dwh.d_pre_loaded_topics_old_23_june2023 ......... [RUN]\n\x1b[0m14:27:25  3 of 4 START seed file bombora_dwh.d_pre_loaded_topics_old_25_may_2023 ......... [RUN]\n\x1b[0m14:27:25  4 of 4 START seed file bombora_dwh.d_pre_loaded_topics_old_4jul2023 ............ [RUN]\n\x1b[0m14:28:24  3 of 4 OK loaded seed file bombora_dwh.d_pre_loaded_topics_old_25_may_2023 ..... [\x1b[32mINSERT 12147\x1b[0m in 58.21s]\n\x1b[0m14:28:27  2 of 4 OK loaded seed file bombora_dwh.d_pre_loaded_topics_old_23_june2023 ..... [\x1b[32mINSERT 12940\x1b[0m in 61.41s]\n\x1b[0m14:28:28  1 of 4 OK loaded seed file bombora_dwh.d_pre_loaded_topics ..................... [\x1b[32mINSERT 13495\x1b[0m in 62.18s]\n\x1b[0m14:28:28  4 of 4 OK loaded seed file bombora_dwh.d_pre_loaded_topics_old_4jul2023 ........ [\x1b[32mINSERT 13495\x1b[0m in 62.21s]\n\x1b[0m14:28:28  \n\x1b[0m14:28:28  Finished running 4 seeds in 0 hours 1 minutes and 2.37 seconds (62.37s).\n\x1b[0m14:28:28  \n\x1b[0m14:28:28  \x1b[32mCompleted successfully\x1b[0m\n\x1b[0m14:28:28  \n\x1b[0m14:28:28  Done. PASS=4 WARN=0 ERROR=0 SKIP=0 TOTAL=4\n" >>
+{'tenant_id': 'revature', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'revature_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/RevProd_Org'}
+<Popen: returncode: 0 args: 'dbt run --exclude f_intent_lead_agg_revature_dw...>
+{'tenant_id': 'nextq', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'nextq_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/NextQProd_Org'}
+<Popen: returncode: 0 args: 'dbt run --exclude f_intent_lead_agg_nextq_dwh f...>
+get_creds, Done
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/sql_queries
+updateToDB, Done
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json', '/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json']
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json', '/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json']
+2
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh', '--context_param filename=/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json']
+0:00:05.869978
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh', '--context_param filename=/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json']
+0:00:13.259159
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization
+b'f_intent_account\nf_bombora_select_topic\nf_intent_lead\nf_intent_account_agg\nf_intent_lead_agg\nf_intent_account\nf_bombora_select_topic\nf_intent_lead\nf_intent_account_agg\nf_intent_lead_agg\n'
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/bombora
+>>>>>>>>
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/bombora/models
+b"\x1b[0m17:13:27  Running with dbt=1.2.0\n\x1b[0m17:13:27  [\x1b[33mWARNING\x1b[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.\nThere are 1 unused configuration paths:\n- models.bombora.example\n\n\x1b[0m17:13:27  Found 10 models, 0 tests, 0 snapshots, 0 analyses, 265 macros, 0 operations, 4 seed files, 0 sources, 0 exposures, 0 metrics\n\x1b[0m17:13:27  \n\x1b[0m17:13:27  Concurrency: 10 threads (target='dev')\n\x1b[0m17:13:27  \n\x1b[0m17:13:27  1 of 4 START seed file bombora_dwh.d_pre_loaded_topics ......................... [RUN]\n\x1b[0m17:13:27  2 of 4 START seed file bombora_dwh.d_pre_loaded_topics_old_23_june2023 ......... [RUN]\n\x1b[0m17:13:27  3 of 4 START seed file bombora_dwh.d_pre_loaded_topics_old_25_may_2023 ......... [RUN]\n\x1b[0m17:13:27  4 of 4 START seed file bombora_dwh.d_pre_loaded_topics_old_4jul2023 ............ [RUN]\n\x1b[0m17:14:27  3 of 4 OK loaded seed file bombora_dwh.d_pre_loaded_topics_old_25_may_2023 ..... [\x1b[32mINSERT 12147\x1b[0m in 60.15s]\n\x1b[0m17:14:29  2 of 4 OK loaded seed file bombora_dwh.d_pre_loaded_topics_old_23_june2023 ..... [\x1b[32mINSERT 12940\x1b[0m in 62.46s]\n\x1b[0m17:14:30  1 of 4 OK loaded seed file bombora_dwh.d_pre_loaded_topics ..................... [\x1b[32mINSERT 13495\x1b[0m in 63.64s]\n\x1b[0m17:14:30  4 of 4 OK loaded seed file bombora_dwh.d_pre_loaded_topics_old_4jul2023 ........ [\x1b[32mINSERT 13495\x1b[0m in 63.68s]\n\x1b[0m17:14:30  \n\x1b[0m17:14:30  Finished running 4 seeds in 0 hours 1 minutes and 3.84 seconds (63.84s).\n\x1b[0m17:14:30  \n\x1b[0m17:14:30  \x1b[32mCompleted successfully\x1b[0m\n\x1b[0m17:14:30  \n\x1b[0m17:14:30  Done. PASS=4 WARN=0 ERROR=0 SKIP=0 TOTAL=4\n" >>
+{'tenant_id': 'revature', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'revature_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/RevProd_Org'}
+<Popen: returncode: 0 args: 'dbt run --exclude f_intent_lead_agg_revature_dw...>
+{'tenant_id': 'nextq', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'nextq_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/NextQProd_Org'}
+<Popen: returncode: 0 args: 'dbt run --exclude f_intent_lead_agg_nextq_dwh f...>
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json', '/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json']
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json', '/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json']
+2
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh', '--context_param filename=/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json']
+0:00:06.181574
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh', '--context_param filename=/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json']
+0:00:15.024085
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization
+b'f_intent_account\nf_bombora_select_topic\nf_intent_lead\nf_intent_account_agg\nf_intent_lead_agg\nf_intent_account\nf_bombora_select_topic\nf_intent_lead\nf_intent_account_agg\nf_intent_lead_agg\n'
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/bombora
+>>>>>>>>
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/bombora/models
+b"\x1b[0m04:54:13  Running with dbt=1.2.0\n\x1b[0m04:54:13  [\x1b[33mWARNING\x1b[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.\nThere are 1 unused configuration paths:\n- models.bombora.example\n\n\x1b[0m04:54:13  Found 10 models, 0 tests, 0 snapshots, 0 analyses, 265 macros, 0 operations, 4 seed files, 0 sources, 0 exposures, 0 metrics\n\x1b[0m04:54:13  \n\x1b[0m04:54:13  Concurrency: 10 threads (target='dev')\n\x1b[0m04:54:13  \n\x1b[0m04:54:13  1 of 4 START seed file bombora_dwh.d_pre_loaded_topics ......................... [RUN]\n\x1b[0m04:54:13  2 of 4 START seed file bombora_dwh.d_pre_loaded_topics_old_23_june2023 ......... [RUN]\n\x1b[0m04:54:13  3 of 4 START seed file bombora_dwh.d_pre_loaded_topics_old_25_may_2023 ......... [RUN]\n\x1b[0m04:54:13  4 of 4 START seed file bombora_dwh.d_pre_loaded_topics_old_4jul2023 ............ [RUN]\n\x1b[0m04:55:13  3 of 4 OK loaded seed file bombora_dwh.d_pre_loaded_topics_old_25_may_2023 ..... [\x1b[32mINSERT 12147\x1b[0m in 59.65s]\n\x1b[0m04:55:17  2 of 4 OK loaded seed file bombora_dwh.d_pre_loaded_topics_old_23_june2023 ..... [\x1b[32mINSERT 12940\x1b[0m in 63.41s]\n\x1b[0m04:55:18  4 of 4 OK loaded seed file bombora_dwh.d_pre_loaded_topics_old_4jul2023 ........ [\x1b[32mINSERT 13495\x1b[0m in 64.27s]\n\x1b[0m04:55:18  1 of 4 OK loaded seed file bombora_dwh.d_pre_loaded_topics ..................... [\x1b[32mINSERT 13495\x1b[0m in 64.31s]\n\x1b[0m04:55:18  \n\x1b[0m04:55:18  Finished running 4 seeds in 0 hours 1 minutes and 4.50 seconds (64.50s).\n\x1b[0m04:55:18  \n\x1b[0m04:55:18  \x1b[32mCompleted successfully\x1b[0m\n\x1b[0m04:55:18  \n\x1b[0m04:55:18  Done. PASS=4 WARN=0 ERROR=0 SKIP=0 TOTAL=4\n" >>
+{'tenant_id': 'revature', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'revature_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/RevProd_Org'}
+Traceback (most recent call last):
+  File "/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/da_dbt_batch.py", line 41, in <module>
+    if  sys.argv[1] != '':
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/da_dbt_batch.py", line 216, in <module>
+    out, err = p.communicate()
+  File "/usr/lib/python3.10/subprocess.py", line 1139, in communicate
+    stdout = self.stdout.read()
+KeyboardInterrupt
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/main.py", line 129, in main
+    results, succeeded = handle_and_check(args)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/main.py", line 192, in handle_and_check
+    task, res = run_from_args(parsed)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/main.py", line 239, in run_from_args
+    results = task.run()
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 470, in run
+    result = self.execute_with_hooks(selected_uids)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 433, in execute_with_hooks
+    res = self.execute_nodes()
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 379, in execute_nodes
+    self.run_queue(pool)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 311, in run_queue
+    self.job_queue.join()
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/graph/queue.py", line 193, in join
+    self.inner.join()
+  File "/usr/lib/python3.10/queue.py", line 90, in join
+    self.all_tasks_done.wait()
+  File "/usr/lib/python3.10/threading.py", line 320, in wait
+    waiter.acquire()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1104, in emit
+    self.flush()
+  File "/usr/lib/python3.10/logging/__init__.py", line 1084, in flush
+    self.stream.flush()
+BrokenPipeError: [Errno 32] Broken pipe
+Call stack:
+  File "/home/ubuntu/appdata/venv/bin/dbt", line 8, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/main.py", line 137, in main
+    fire_event(MainKeyboardInterrupt())
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/events/functions.py", line 308, in fire_event
+    send_to_logger(STDOUT_LOG, level_tag=e.level_tag(), log_line=log_line)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/events/functions.py", line 232, in send_to_logger
+    l.info(log_line)
+Message: '\x1b[0m05:07:03  ctrl-c'
+Arguments: ()
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json', '/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json']
+['AI/RevProd_Org', 'AI/NextQProd_Org']
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json', '/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json']
+2
+Following exception path
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh', '--context_param filename=/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/revature.json']
+0:00:06.215098
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json
+['/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh', '--context_param filename=/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/nextq.json']
+0:00:15.475484
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization
+b'f_intent_account\nf_bombora_select_topic\nf_intent_lead\nf_intent_account_agg\nf_intent_lead_agg\nf_intent_account\nf_bombora_select_topic\nf_intent_lead\nf_intent_account_agg\nf_intent_lead_agg\n'
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/bombora
+>>>>>>>>
+/home/ubuntu/appdata/Bombora_Integration_PROD/BatchFile/DA_DBT/bombora/models
+b"\x1b[0m05:01:52  Running with dbt=1.2.0\n\x1b[0m05:01:52  [\x1b[33mWARNING\x1b[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.\nThere are 1 unused configuration paths:\n- models.bombora.example\n\n\x1b[0m05:01:52  Found 10 models, 0 tests, 0 snapshots, 0 analyses, 265 macros, 0 operations, 4 seed files, 0 sources, 0 exposures, 0 metrics\n\x1b[0m05:01:52  \n\x1b[0m05:01:53  Concurrency: 10 threads (target='dev')\n\x1b[0m05:01:53  \n\x1b[0m05:01:53  1 of 4 START seed file bombora_dwh.d_pre_loaded_topics ......................... [RUN]\n\x1b[0m05:01:53  2 of 4 START seed file bombora_dwh.d_pre_loaded_topics_old_23_june2023 ......... [RUN]\n\x1b[0m05:01:53  3 of 4 START seed file bombora_dwh.d_pre_loaded_topics_old_25_may_2023 ......... [RUN]\n\x1b[0m05:01:53  4 of 4 START seed file bombora_dwh.d_pre_loaded_topics_old_4jul2023 ............ [RUN]\n\x1b[0m05:02:50  3 of 4 OK loaded seed file bombora_dwh.d_pre_loaded_topics_old_25_may_2023 ..... [\x1b[32mINSERT 12147\x1b[0m in 57.77s]\n\x1b[0m05:02:53  2 of 4 OK loaded seed file bombora_dwh.d_pre_loaded_topics_old_23_june2023 ..... [\x1b[32mINSERT 12940\x1b[0m in 59.99s]\n\x1b[0m05:02:54  4 of 4 OK loaded seed file bombora_dwh.d_pre_loaded_topics_old_4jul2023 ........ [\x1b[32mINSERT 13495\x1b[0m in 61.12s]\n\x1b[0m05:02:54  1 of 4 OK loaded seed file bombora_dwh.d_pre_loaded_topics ..................... [\x1b[32mINSERT 13495\x1b[0m in 61.15s]\n\x1b[0m05:02:54  \n\x1b[0m05:02:54  Finished running 4 seeds in 0 hours 1 minutes and 1.30 seconds (61.30s).\n\x1b[0m05:02:54  \n\x1b[0m05:02:54  \x1b[32mCompleted successfully\x1b[0m\n\x1b[0m05:02:54  \n\x1b[0m05:02:54  Done. PASS=4 WARN=0 ERROR=0 SKIP=0 TOTAL=4\n" >>
+{'tenant_id': 'revature', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'revature_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/RevProd_Org'}
+<Popen: returncode: 0 args: 'dbt run --exclude f_intent_lead_agg_revature_dw...>
+{'tenant_id': 'nextq', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_prod', 'db_schema': 'nextq_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/NextQProd_Org'}
+<Popen: returncode: 0 args: 'dbt run --exclude f_intent_lead_agg_nextq_dwh f...>
