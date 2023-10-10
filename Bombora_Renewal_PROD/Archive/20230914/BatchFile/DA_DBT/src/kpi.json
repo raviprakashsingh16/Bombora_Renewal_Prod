@@ -1,0 +1,44 @@
+[
+  {
+    "model": "f_intent_account",
+    "macro": "f_intent_account_macro",
+	  "materialized": "table",
+	  "param": "f_bombora_select_topic",
+	  "history": 0,
+	  "posthook": "",
+	  "uniquekey":""
+   },
+  {"model": "f_bombora_select_topic",
+    "macro": "f_bombora_select_topic_macro",
+	  "materialized": "table",
+	  "param":"",
+	  "history": 0,
+	  "posthook": "",
+	  "uniquekey":""
+  },
+  {"model": "f_intent_lead",
+    "macro": "f_intent_lead_macro",
+	  "materialized": "table",
+	   "param": "f_bombora_select_topic",
+	   "history": 0,
+	   "posthook": "",
+	   "uniquekey":""
+  },
+  {"model": "f_intent_account_agg",
+    "macro": "f_intent_account_agg_macro",
+	"materialized": "incremental",
+	"param": "f_intent_account",
+	"history": 8,
+	"posthook": "",
+	"uniquekey":"f_intent_account_agg_key"
+  },
+  {"model": "f_intent_lead_agg",
+    "macro": "f_intent_lead_agg_macro",
+	"materialized": "incremental",
+	"param": "f_intent_lead",
+	"history": 8,
+	"posthook": "y",
+	"uniquekey":"f_intent_lead_agg_key"
+  }
+   
+   ]

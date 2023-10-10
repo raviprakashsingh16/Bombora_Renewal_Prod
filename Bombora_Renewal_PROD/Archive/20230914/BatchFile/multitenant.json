@@ -1,0 +1,26 @@
+[
+   {
+        "tenant_id": "bombora",
+        "db_driver": "postgresql",
+        "db_password": "Fcst1234$",
+        "db_host": "ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com",
+        "db_port": "5432",
+        "db_username": "postgres",       
+        "db_database": "bombora_renewal_prod",
+        "db_schema": "bombora_dwh"
+
+    },
+    {
+        "tenant_id": "pythian",
+        "db_driver": "postgresql",
+        "db_password": "Fcst1234$",
+        "db_host": "ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com",
+        "db_port": "5432",
+        "db_username": "postgres",       
+        "db_database": "bombora_renewal_prod",
+        "db_schema": "pythian_dwh",
+	"account_surge": "y",
+	"lead": "n",
+        "org":"AI/PythianProd_Org_Intent"
+    }
+]

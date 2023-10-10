@@ -1,0 +1,6 @@
+version: 2
+
+seeds:
+  - name: d_pre_loaded_topics
+    config:
+      schema: bombora_dwh

@@ -1,0 +1,52 @@
+[
+   {
+        "tenant_id": "bombora",
+        "db_driver": "postgresql",
+        "db_password": "Fcst#0987",
+        "db_host": "aiml-dev-db.cbtaanq5yhb4.us-east-1.rds.amazonaws.com",
+        "db_port": "5432",
+        "db_username": "postgres",       
+        "db_database": "bombora_tena_demo",
+        "db_schema": "bombora_dwh"
+
+    },
+	{
+        "tenant_id": "nextq",
+        "db_driver": "postgresql",
+        "db_password": "Fcst#0987",
+        "db_host": "aiml-dev-db.cbtaanq5yhb4.us-east-1.rds.amazonaws.com",
+        "db_port": "5432",
+        "db_username": "postgres",       
+        "db_database": "bombora_tena_demo",
+        "db_schema": "nextq_dwh",
+		"account_surge": "y",
+		"lead": "n",
+		"org":"AI/NewDevHub_Org"
+    },
+    {
+        "tenant_id": "forecastera",
+        "db_driver": "postgresql",
+        "db_password": "Fcst#0987",
+        "db_host": "aiml-dev-db.cbtaanq5yhb4.us-east-1.rds.amazonaws.com",
+        "db_port": "5432",
+        "db_username": "postgres",
+        "db_database": "bombora_tena_demo",
+        "db_schema": "forecastera_dwh",
+		"account_surge": "y",
+		"lead": "n",
+        "org":"AI/AWS_Org"
+    },
+    {
+        "tenant_id": "junedevhub",
+        "db_driver": "postgresql",
+        "db_password": "Fcst#0987",
+        "db_host": "aiml-dev-db.cbtaanq5yhb4.us-east-1.rds.amazonaws.com",
+        "db_port": "5432",
+        "db_username": "postgres",       
+        "db_database": "bombora_tena_demo",
+        "db_schema": "junedevhub_dwh",
+		"account_surge": "y",
+		"lead": "n",
+        "org":"AI/JuneDevHub_Org"
+    }
+]

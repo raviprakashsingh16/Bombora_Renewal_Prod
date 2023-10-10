@@ -1,0 +1,25 @@
+[
+    {
+        "tenant_id": "bombora",
+        "db_driver": "",
+        "db_password": "",
+        "db_host": "",
+        "db_port": "",
+        "db_username": "",
+        "db_database": "",
+        "db_schema": "bombora_dwh"
+    },
+    {
+        "tenant_id": "pythian",
+        "db_driver": "",
+        "db_password": "",
+        "db_host": "",
+        "db_port": "",
+        "db_username": "",
+        "db_database": "",
+        "db_schema": "",
+        "account_surge": "y",
+        "lead": "n",
+        "org": "AI/PythianProd_Org_Intent"
+    }
+]

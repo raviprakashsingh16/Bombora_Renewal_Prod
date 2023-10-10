@@ -1,0 +1,17 @@
+{
+	"tenant_info": [
+    {
+        "tenant_id": "Bombora",
+        "db_driver": "postgresql",
+        "db_user": "postgres",
+        "db_password": "Fcst#0987",
+        "db_host": "aiml-dev-db.cbtaanq5yhb4.us-east-1.rds.amazonaws.com",
+        "db_port": "5432",
+        "schema": "Bombora_dwh",
+		"db_name": "master",
+        "db_create": "bombora_tena_demo"
+      
+
+    }
+	]
+}

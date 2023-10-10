@@ -1,0 +1,38 @@
+Activating virtual enviornment
+Virtual environment found 
+{'tenant_id': 'bombora', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_renewal_prod', 'db_schema': 'bombora_dwh'}
+{'tenant_id': 'bombora', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_renewal_prod', 'db_schema': 'bombora_dwh'}
+{'tenant_id': 'pythian', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_renewal_prod', 'db_schema': 'pythian_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/PythianProd_Org_Intent'}
+get_creds, Done
+/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/sql_queries
+updateToDB, Done
+/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/pythian.json
+['/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/pythian.json']
+/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/pythian.json
+['/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/pythian.json']
+1
+Following exception path
+/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/pythian.json
+['/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh', '--context_param filename=/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/pythian.json']
+0:00:05.402560
+/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization
+in if statement
+/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/bombora
+>>>>>>>>
+/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/bombora/models
+b"\x1b[0m05:33:24  Running with dbt=1.2.0\n\x1b[0m05:33:24  [\x1b[33mWARNING\x1b[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.\nThere are 1 unused configuration paths:\n- models.bombora.example\n\n\x1b[0m05:33:24  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 265 macros, 0 operations, 1 seed file, 0 sources, 0 exposures, 0 metrics\n\x1b[0m05:33:24  \n\x1b[0m05:33:25  Concurrency: 10 threads (target='dev')\n\x1b[0m05:33:25  \n\x1b[0m05:33:25  1 of 1 START seed file bombora_dwh.d_pre_loaded_topics ......................... [RUN]\n\x1b[0m05:33:41  1 of 1 OK loaded seed file bombora_dwh.d_pre_loaded_topics ..................... [\x1b[32mINSERT 13495\x1b[0m in 16.25s]\n\x1b[0m05:33:41  \n\x1b[0m05:33:41  Finished running 1 seed in 0 hours 0 minutes and 16.41 seconds (16.41s).\n\x1b[0m05:33:41  \n\x1b[0m05:33:41  \x1b[32mCompleted successfully\x1b[0m\n\x1b[0m05:33:41  \n\x1b[0m05:33:41  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1\n" >>
+{'tenant_id': 'pythian', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_renewal_prod', 'db_schema': 'pythian_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/PythianProd_Org_Intent'}
+<Popen: returncode: 1 args: 'dbt run --exclude f_intent_lead_agg_pythian_dwh...>
+Following exception path
+/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/pythian.json
+-1
+59
+
+ f_intent_account_agg_to_surge_json_1.0 started
+0:00:34.864128
+Following exception path
+/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/pythian.json
+-1
+59
+{'tenant_id': 'bombora', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_renewal_prod', 'db_schema': 'bombora_dwh'}
+{'tenant_id': 'pythian', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_renewal_prod', 'db_schema': 'pythian_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/PythianProd_Org_Intent'}

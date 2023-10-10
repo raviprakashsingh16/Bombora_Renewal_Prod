@@ -1,0 +1,51 @@
+[0m10:02:21  Running with dbt=1.2.0
+[0m10:02:21  [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.bombora.example
+
+[0m10:02:21  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 265 macros, 0 operations, 1 seed file, 0 sources, 0 exposures, 0 metrics
+[0m10:02:21  
+[0m10:02:21  Concurrency: 10 threads (target='dev')
+[0m10:02:21  
+[0m10:02:21  1 of 1 START table model pythian_dwh.f_bombora_select_topic .................... [RUN]
+[0m10:02:44  1 of 1 OK created table model pythian_dwh.f_bombora_select_topic ............... [[32mSELECT 894663[0m in 22.69s]
+[0m10:02:44  
+[0m10:02:44  Finished running 1 table model in 0 hours 0 minutes and 22.82 seconds (22.82s).
+[0m10:02:44  
+[0m10:02:44  [32mCompleted successfully[0m
+[0m10:02:44  
+[0m10:02:44  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m10:04:10  Running with dbt=1.2.0
+[0m10:04:10  [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.bombora.example
+
+[0m10:04:10  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 265 macros, 0 operations, 1 seed file, 0 sources, 0 exposures, 0 metrics
+[0m10:04:10  
+[0m10:04:10  Concurrency: 10 threads (target='dev')
+[0m10:04:10  
+[0m10:04:10  1 of 1 START table model pythian_dwh.f_intent_account .......................... [RUN]
+[0m10:04:16  1 of 1 OK created table model pythian_dwh.f_intent_account ..................... [[32mSELECT 36700[0m in 5.69s]
+[0m10:04:16  
+[0m10:04:16  Finished running 1 table model in 0 hours 0 minutes and 5.82 seconds (5.82s).
+[0m10:04:16  
+[0m10:04:16  [32mCompleted successfully[0m
+[0m10:04:16  
+[0m10:04:16  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m10:05:27  Running with dbt=1.2.0
+[0m10:05:27  [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.bombora.example
+
+[0m10:05:27  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 265 macros, 0 operations, 1 seed file, 0 sources, 0 exposures, 0 metrics
+[0m10:05:27  
+[0m10:05:27  Concurrency: 10 threads (target='dev')
+[0m10:05:27  
+[0m10:05:27  1 of 1 START incremental model pythian_dwh.f_intent_account_agg ................ [RUN]
+[0m10:05:27  1 of 1 OK created incremental model pythian_dwh.f_intent_account_agg ........... [[32mINSERT 0 14635[0m in 0.47s]
+[0m10:05:28  
+[0m10:05:28  Finished running 1 incremental model in 0 hours 0 minutes and 0.60 seconds (0.60s).
+[0m10:05:28  
+[0m10:05:28  [32mCompleted successfully[0m
+[0m10:05:28  
+[0m10:05:28  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1

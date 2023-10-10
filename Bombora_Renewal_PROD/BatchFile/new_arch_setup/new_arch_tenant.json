@@ -1,0 +1,15 @@
+{
+    "tenant_info": [
+        {
+            "tenant_id": "Bombora",
+            "db_driver": "",
+            "db_user": "",
+            "db_password": "",
+            "db_host": "",
+            "db_port": "",
+            "db_create": "",
+            "schema": "Bombora_dwh",
+            "db_name": "postgres"
+        }
+    ]
+}

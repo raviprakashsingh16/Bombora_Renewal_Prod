@@ -1,0 +1,605 @@
+get_creds, Done
+/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/sql_queries
+Traceback (most recent call last):
+  File "/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/sql_batch.py", line 124, in <module>
+    updateToDB(db_creds)
+  File "/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/sql_batch.py", line 78, in updateToDB
+    cnx.execute(open(path + "/file_load.sql", "r").read())
+  File "/usr/lib/python3.10/encodings/utf_8.py", line 15, in decode
+    def decode(input, errors='strict'):
+KeyboardInterrupt
+get_creds, Done
+/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/sql_queries
+updateToDB, Done
+Traceback (most recent call last):
+  File "/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/da_dbt_batch.py", line 10, in <module>
+    from org_secret_mgr import list_path_filenames
+  File "/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/org_secret_mgr.py", line 49, in <module>
+    gs=get_secret(sn)
+  File "/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/org_secret_mgr.py", line 27, in get_secret
+    raise e
+  File "/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/org_secret_mgr.py", line 21, in get_secret
+    get_secret_value_response = client.get_secret_value(
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/botocore/client.py", line 530, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/botocore/client.py", line 964, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.ResourceNotFoundException: An error occurred (ResourceNotFoundException) when calling the GetSecretValue operation: Secrets Manager can't find the specified secret.
+/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/pythian.json
+['/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/pythian.json']
+/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/pythian.json
+['/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/pythian.json']
+1
+Following exception path
+/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/pythian.json
+['/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh', '--context_param filename=/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/pythian.json']
+0:00:05.007919
+/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization
+in if statement
+/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/bombora
+>>>>>>>>
+/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/bombora/models
+b"\x1b[0m16:06:33  Running with dbt=1.2.0\n\x1b[0m16:06:34  [\x1b[33mWARNING\x1b[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.\nThere are 1 unused configuration paths:\n- models.bombora.example\n\n\x1b[0m16:06:34  Found 10 models, 0 tests, 0 snapshots, 0 analyses, 265 macros, 0 operations, 1 seed file, 0 sources, 0 exposures, 0 metrics\n\x1b[0m16:06:34  \n\x1b[0m16:06:34  Concurrency: 10 threads (target='dev')\n\x1b[0m16:06:34  \n\x1b[0m16:06:34  1 of 1 START seed file bombora_dwh.d_pre_loaded_topics ......................... [RUN]\n\x1b[0m16:06:50  1 of 1 OK loaded seed file bombora_dwh.d_pre_loaded_topics ..................... [\x1b[32mINSERT 13495\x1b[0m in 15.42s]\n\x1b[0m16:06:50  \n\x1b[0m16:06:50  Finished running 1 seed in 0 hours 0 minutes and 15.56 seconds (15.56s).\n\x1b[0m16:06:50  \n\x1b[0m16:06:50  \x1b[32mCompleted successfully\x1b[0m\n\x1b[0m16:06:50  \n\x1b[0m16:06:50  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1\n" >>
+{'tenant_id': 'pythian', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_renewal_prod', 'db_schema': 'pythian_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/PythianProd_Org_Intent'}
+Traceback (most recent call last):
+  File "/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/da_dbt_batch.py", line 76, in <module>
+    if  sys.argv[1] != '':
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/da_dbt_batch.py", line 298, in <module>
+    out, err = p.communicate()
+  File "/usr/lib/python3.10/subprocess.py", line 1141, in communicate
+    stdout = self.stdout.read()
+KeyboardInterrupt
+--- Logging error ---
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1104, in emit
+    self.flush()
+  File "/usr/lib/python3.10/logging/__init__.py", line 1084, in flush
+    self.stream.flush()
+BrokenPipeError: [Errno 32] Broken pipe
+Call stack:
+  File "/usr/lib/python3.10/threading.py", line 973, in _bootstrap
+    self._bootstrap_inner()
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python3.10/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 222, in call_runner
+    result = runner.run_with_hooks(self.manifest)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/base.py", line 236, in run_with_hooks
+    self.after_execute(result)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/run.py", line 217, in after_execute
+    self.print_result_line(result)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/run.py", line 190, in print_result_line
+    fire_event(
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/events/functions.py", line 308, in fire_event
+    send_to_logger(STDOUT_LOG, level_tag=e.level_tag(), log_line=log_line)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/events/functions.py", line 236, in send_to_logger
+    l.error(log_line)
+Message: '\x1b[0m16:18:43  2 of 3 ERROR creating table model pythian_dwh.f_intent_account ................. [\x1b[31mERROR\x1b[0m in 684.92s]'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 379, in execute_nodes
+    self.run_queue(pool)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 292, in run_queue
+    node = self.job_queue.get()
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/graph/queue.py", line 121, in get
+    _, node_id = self.inner.get(block=block, timeout=timeout)
+  File "/usr/lib/python3.10/queue.py", line 171, in get
+    self.not_empty.wait()
+  File "/usr/lib/python3.10/threading.py", line 320, in wait
+    waiter.acquire()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1104, in emit
+    self.flush()
+  File "/usr/lib/python3.10/logging/__init__.py", line 1084, in flush
+    self.stream.flush()
+BrokenPipeError: [Errno 32] Broken pipe
+Call stack:
+  File "/home/ubuntu/appdata/venv/bin/dbt", line 8, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/main.py", line 129, in main
+    results, succeeded = handle_and_check(args)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/main.py", line 192, in handle_and_check
+    task, res = run_from_args(parsed)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/main.py", line 239, in run_from_args
+    results = task.run()
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 470, in run
+    result = self.execute_with_hooks(selected_uids)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 433, in execute_with_hooks
+    res = self.execute_nodes()
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 388, in execute_nodes
+    print_run_end_messages(self.node_results, keyboard_interrupt=True)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/printer.py", line 140, in print_run_end_messages
+    fire_event(EmptyLine())
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/events/functions.py", line 308, in fire_event
+    send_to_logger(STDOUT_LOG, level_tag=e.level_tag(), log_line=log_line)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/events/functions.py", line 232, in send_to_logger
+    l.info(log_line)
+Message: '\x1b[0m16:18:43  '
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 379, in execute_nodes
+    self.run_queue(pool)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 292, in run_queue
+    node = self.job_queue.get()
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/graph/queue.py", line 121, in get
+    _, node_id = self.inner.get(block=block, timeout=timeout)
+  File "/usr/lib/python3.10/queue.py", line 171, in get
+    self.not_empty.wait()
+  File "/usr/lib/python3.10/threading.py", line 320, in wait
+    waiter.acquire()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1104, in emit
+    self.flush()
+  File "/usr/lib/python3.10/logging/__init__.py", line 1084, in flush
+    self.stream.flush()
+BrokenPipeError: [Errno 32] Broken pipe
+Call stack:
+  File "/home/ubuntu/appdata/venv/bin/dbt", line 8, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/main.py", line 129, in main
+    results, succeeded = handle_and_check(args)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/main.py", line 192, in handle_and_check
+    task, res = run_from_args(parsed)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/main.py", line 239, in run_from_args
+    results = task.run()
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 470, in run
+    result = self.execute_with_hooks(selected_uids)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 433, in execute_with_hooks
+    res = self.execute_nodes()
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 388, in execute_nodes
+    print_run_end_messages(self.node_results, keyboard_interrupt=True)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/printer.py", line 141, in print_run_end_messages
+    fire_event(
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/events/functions.py", line 308, in fire_event
+    send_to_logger(STDOUT_LOG, level_tag=e.level_tag(), log_line=log_line)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/events/functions.py", line 232, in send_to_logger
+    l.info(log_line)
+Message: '\x1b[0m16:18:43  \x1b[33mExited because of keyboard interrupt.\x1b[0m'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 379, in execute_nodes
+    self.run_queue(pool)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 292, in run_queue
+    node = self.job_queue.get()
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/graph/queue.py", line 121, in get
+    _, node_id = self.inner.get(block=block, timeout=timeout)
+  File "/usr/lib/python3.10/queue.py", line 171, in get
+    self.not_empty.wait()
+  File "/usr/lib/python3.10/threading.py", line 320, in wait
+    waiter.acquire()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1104, in emit
+    self.flush()
+  File "/usr/lib/python3.10/logging/__init__.py", line 1084, in flush
+    self.stream.flush()
+BrokenPipeError: [Errno 32] Broken pipe
+Call stack:
+  File "/home/ubuntu/appdata/venv/bin/dbt", line 8, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/main.py", line 129, in main
+    results, succeeded = handle_and_check(args)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/main.py", line 192, in handle_and_check
+    task, res = run_from_args(parsed)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/main.py", line 239, in run_from_args
+    results = task.run()
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 470, in run
+    result = self.execute_with_hooks(selected_uids)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 433, in execute_with_hooks
+    res = self.execute_nodes()
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 388, in execute_nodes
+    print_run_end_messages(self.node_results, keyboard_interrupt=True)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/printer.py", line 155, in print_run_end_messages
+    print_run_status_line(results)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/printer.py", line 74, in print_run_status_line
+    fire_event(EmptyLine())
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/events/functions.py", line 308, in fire_event
+    send_to_logger(STDOUT_LOG, level_tag=e.level_tag(), log_line=log_line)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/events/functions.py", line 232, in send_to_logger
+    l.info(log_line)
+Message: '\x1b[0m16:18:43  '
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 379, in execute_nodes
+    self.run_queue(pool)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 292, in run_queue
+    node = self.job_queue.get()
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/graph/queue.py", line 121, in get
+    _, node_id = self.inner.get(block=block, timeout=timeout)
+  File "/usr/lib/python3.10/queue.py", line 171, in get
+    self.not_empty.wait()
+  File "/usr/lib/python3.10/threading.py", line 320, in wait
+    waiter.acquire()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1104, in emit
+    self.flush()
+  File "/usr/lib/python3.10/logging/__init__.py", line 1084, in flush
+    self.stream.flush()
+BrokenPipeError: [Errno 32] Broken pipe
+Call stack:
+  File "/home/ubuntu/appdata/venv/bin/dbt", line 8, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/main.py", line 129, in main
+    results, succeeded = handle_and_check(args)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/main.py", line 192, in handle_and_check
+    task, res = run_from_args(parsed)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/main.py", line 239, in run_from_args
+    results = task.run()
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 470, in run
+    result = self.execute_with_hooks(selected_uids)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 433, in execute_with_hooks
+    res = self.execute_nodes()
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 388, in execute_nodes
+    print_run_end_messages(self.node_results, keyboard_interrupt=True)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/printer.py", line 155, in print_run_end_messages
+    print_run_status_line(results)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/printer.py", line 75, in print_run_status_line
+    fire_event(StatsLine(stats=stats))
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/events/functions.py", line 308, in fire_event
+    send_to_logger(STDOUT_LOG, level_tag=e.level_tag(), log_line=log_line)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/events/functions.py", line 232, in send_to_logger
+    l.info(log_line)
+Message: '\x1b[0m16:18:43  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/main.py", line 129, in main
+    results, succeeded = handle_and_check(args)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/main.py", line 192, in handle_and_check
+    task, res = run_from_args(parsed)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/main.py", line 239, in run_from_args
+    results = task.run()
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 470, in run
+    result = self.execute_with_hooks(selected_uids)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 433, in execute_with_hooks
+    res = self.execute_nodes()
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 379, in execute_nodes
+    self.run_queue(pool)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 292, in run_queue
+    node = self.job_queue.get()
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/graph/queue.py", line 121, in get
+    _, node_id = self.inner.get(block=block, timeout=timeout)
+  File "/usr/lib/python3.10/queue.py", line 171, in get
+    self.not_empty.wait()
+  File "/usr/lib/python3.10/threading.py", line 320, in wait
+    waiter.acquire()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1104, in emit
+    self.flush()
+  File "/usr/lib/python3.10/logging/__init__.py", line 1084, in flush
+    self.stream.flush()
+BrokenPipeError: [Errno 32] Broken pipe
+Call stack:
+  File "/home/ubuntu/appdata/venv/bin/dbt", line 8, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/main.py", line 137, in main
+    fire_event(MainKeyboardInterrupt())
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/events/functions.py", line 308, in fire_event
+    send_to_logger(STDOUT_LOG, level_tag=e.level_tag(), log_line=log_line)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/events/functions.py", line 232, in send_to_logger
+    l.info(log_line)
+Message: '\x1b[0m16:18:43  ctrl-c'
+Arguments: ()
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/pythian.json
+['/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/pythian.json']
+/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/pythian.json
+['/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/pythian.json']
+1
+Following exception path
+/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/pythian.json
+['/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization/multitenatization_run.sh', '--context_param filename=/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/pythian.json']
+0:00:05.423033
+/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/multitenatization_0.1/multitenatization
+in if statement
+/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/bombora
+>>>>>>>>
+/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/bombora/models
+b"\x1b[0m16:21:05  Running with dbt=1.2.0\n\x1b[0m16:21:05  [\x1b[33mWARNING\x1b[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.\nThere are 1 unused configuration paths:\n- models.bombora.example\n\n\x1b[0m16:21:05  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 265 macros, 0 operations, 1 seed file, 0 sources, 0 exposures, 0 metrics\n\x1b[0m16:21:05  \n\x1b[0m16:21:05  Concurrency: 10 threads (target='dev')\n\x1b[0m16:21:05  \n\x1b[0m16:21:05  1 of 1 START seed file bombora_dwh.d_pre_loaded_topics ......................... [RUN]\n\x1b[0m16:21:20  1 of 1 OK loaded seed file bombora_dwh.d_pre_loaded_topics ..................... [\x1b[32mINSERT 13495\x1b[0m in 15.32s]\n\x1b[0m16:21:20  \n\x1b[0m16:21:20  Finished running 1 seed in 0 hours 0 minutes and 15.45 seconds (15.45s).\n\x1b[0m16:21:20  \n\x1b[0m16:21:20  \x1b[32mCompleted successfully\x1b[0m\n\x1b[0m16:21:20  \n\x1b[0m16:21:20  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1\n" >>
+{'tenant_id': 'pythian', 'db_driver': 'postgresql', 'db_password': 'Fcst1234$', 'db_host': 'ai-prod.cbtaanq5yhb4.us-east-1.rds.amazonaws.com', 'db_port': '5432', 'db_username': 'postgres', 'db_database': 'bombora_renewal_prod', 'db_schema': 'pythian_dwh', 'account_surge': 'y', 'lead': 'n', 'org': 'AI/PythianProd_Org_Intent'}
+Traceback (most recent call last):
+  File "/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/da_dbt_batch.py", line 76, in <module>
+    if  sys.argv[1] != '':
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/da_dbt_batch.py", line 298, in <module>
+    out, err = p.communicate()
+  File "/usr/lib/python3.10/subprocess.py", line 1141, in communicate
+    stdout = self.stdout.read()
+KeyboardInterrupt
+--- Logging error ---
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1104, in emit
+    self.flush()
+  File "/usr/lib/python3.10/logging/__init__.py", line 1084, in flush
+    self.stream.flush()
+BrokenPipeError: [Errno 32] Broken pipe
+Call stack:
+  File "/usr/lib/python3.10/threading.py", line 973, in _bootstrap
+    self._bootstrap_inner()
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python3.10/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 222, in call_runner
+    result = runner.run_with_hooks(self.manifest)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/base.py", line 236, in run_with_hooks
+    self.after_execute(result)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/run.py", line 217, in after_execute
+    self.print_result_line(result)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/run.py", line 190, in print_result_line
+    fire_event(
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/events/functions.py", line 308, in fire_event
+    send_to_logger(STDOUT_LOG, level_tag=e.level_tag(), log_line=log_line)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/events/functions.py", line 236, in send_to_logger
+    l.error(log_line)
+Message: '\x1b[0m16:24:44  2 of 3 ERROR creating table model pythian_dwh.f_intent_account ................. [\x1b[31mERROR\x1b[0m in 177.25s]'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 379, in execute_nodes
+    self.run_queue(pool)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 292, in run_queue
+    node = self.job_queue.get()
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/graph/queue.py", line 121, in get
+    _, node_id = self.inner.get(block=block, timeout=timeout)
+  File "/usr/lib/python3.10/queue.py", line 171, in get
+    self.not_empty.wait()
+  File "/usr/lib/python3.10/threading.py", line 320, in wait
+    waiter.acquire()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1104, in emit
+    self.flush()
+  File "/usr/lib/python3.10/logging/__init__.py", line 1084, in flush
+    self.stream.flush()
+BrokenPipeError: [Errno 32] Broken pipe
+Call stack:
+  File "/home/ubuntu/appdata/venv/bin/dbt", line 8, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/main.py", line 129, in main
+    results, succeeded = handle_and_check(args)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/main.py", line 192, in handle_and_check
+    task, res = run_from_args(parsed)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/main.py", line 239, in run_from_args
+    results = task.run()
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 470, in run
+    result = self.execute_with_hooks(selected_uids)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 433, in execute_with_hooks
+    res = self.execute_nodes()
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 388, in execute_nodes
+    print_run_end_messages(self.node_results, keyboard_interrupt=True)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/printer.py", line 140, in print_run_end_messages
+    fire_event(EmptyLine())
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/events/functions.py", line 308, in fire_event
+    send_to_logger(STDOUT_LOG, level_tag=e.level_tag(), log_line=log_line)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/events/functions.py", line 232, in send_to_logger
+    l.info(log_line)
+Message: '\x1b[0m16:24:44  '
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 379, in execute_nodes
+    self.run_queue(pool)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 292, in run_queue
+    node = self.job_queue.get()
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/graph/queue.py", line 121, in get
+    _, node_id = self.inner.get(block=block, timeout=timeout)
+  File "/usr/lib/python3.10/queue.py", line 171, in get
+    self.not_empty.wait()
+  File "/usr/lib/python3.10/threading.py", line 320, in wait
+    waiter.acquire()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1104, in emit
+    self.flush()
+  File "/usr/lib/python3.10/logging/__init__.py", line 1084, in flush
+    self.stream.flush()
+BrokenPipeError: [Errno 32] Broken pipe
+Call stack:
+  File "/home/ubuntu/appdata/venv/bin/dbt", line 8, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/main.py", line 129, in main
+    results, succeeded = handle_and_check(args)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/main.py", line 192, in handle_and_check
+    task, res = run_from_args(parsed)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/main.py", line 239, in run_from_args
+    results = task.run()
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 470, in run
+    result = self.execute_with_hooks(selected_uids)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 433, in execute_with_hooks
+    res = self.execute_nodes()
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 388, in execute_nodes
+    print_run_end_messages(self.node_results, keyboard_interrupt=True)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/printer.py", line 141, in print_run_end_messages
+    fire_event(
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/events/functions.py", line 308, in fire_event
+    send_to_logger(STDOUT_LOG, level_tag=e.level_tag(), log_line=log_line)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/events/functions.py", line 232, in send_to_logger
+    l.info(log_line)
+Message: '\x1b[0m16:24:44  \x1b[33mExited because of keyboard interrupt.\x1b[0m'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 379, in execute_nodes
+    self.run_queue(pool)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 292, in run_queue
+    node = self.job_queue.get()
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/graph/queue.py", line 121, in get
+    _, node_id = self.inner.get(block=block, timeout=timeout)
+  File "/usr/lib/python3.10/queue.py", line 171, in get
+    self.not_empty.wait()
+  File "/usr/lib/python3.10/threading.py", line 320, in wait
+    waiter.acquire()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1104, in emit
+    self.flush()
+  File "/usr/lib/python3.10/logging/__init__.py", line 1084, in flush
+    self.stream.flush()
+BrokenPipeError: [Errno 32] Broken pipe
+Call stack:
+  File "/home/ubuntu/appdata/venv/bin/dbt", line 8, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/main.py", line 129, in main
+    results, succeeded = handle_and_check(args)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/main.py", line 192, in handle_and_check
+    task, res = run_from_args(parsed)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/main.py", line 239, in run_from_args
+    results = task.run()
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 470, in run
+    result = self.execute_with_hooks(selected_uids)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 433, in execute_with_hooks
+    res = self.execute_nodes()
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 388, in execute_nodes
+    print_run_end_messages(self.node_results, keyboard_interrupt=True)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/printer.py", line 155, in print_run_end_messages
+    print_run_status_line(results)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/printer.py", line 74, in print_run_status_line
+    fire_event(EmptyLine())
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/events/functions.py", line 308, in fire_event
+    send_to_logger(STDOUT_LOG, level_tag=e.level_tag(), log_line=log_line)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/events/functions.py", line 232, in send_to_logger
+    l.info(log_line)
+Message: '\x1b[0m16:24:44  '
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 379, in execute_nodes
+    self.run_queue(pool)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 292, in run_queue
+    node = self.job_queue.get()
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/graph/queue.py", line 121, in get
+    _, node_id = self.inner.get(block=block, timeout=timeout)
+  File "/usr/lib/python3.10/queue.py", line 171, in get
+    self.not_empty.wait()
+  File "/usr/lib/python3.10/threading.py", line 320, in wait
+    waiter.acquire()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1104, in emit
+    self.flush()
+  File "/usr/lib/python3.10/logging/__init__.py", line 1084, in flush
+    self.stream.flush()
+BrokenPipeError: [Errno 32] Broken pipe
+Call stack:
+  File "/home/ubuntu/appdata/venv/bin/dbt", line 8, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/main.py", line 129, in main
+    results, succeeded = handle_and_check(args)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/main.py", line 192, in handle_and_check
+    task, res = run_from_args(parsed)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/main.py", line 239, in run_from_args
+    results = task.run()
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 470, in run
+    result = self.execute_with_hooks(selected_uids)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 433, in execute_with_hooks
+    res = self.execute_nodes()
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 388, in execute_nodes
+    print_run_end_messages(self.node_results, keyboard_interrupt=True)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/printer.py", line 155, in print_run_end_messages
+    print_run_status_line(results)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/printer.py", line 75, in print_run_status_line
+    fire_event(StatsLine(stats=stats))
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/events/functions.py", line 308, in fire_event
+    send_to_logger(STDOUT_LOG, level_tag=e.level_tag(), log_line=log_line)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/events/functions.py", line 232, in send_to_logger
+    l.info(log_line)
+Message: '\x1b[0m16:24:44  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/main.py", line 129, in main
+    results, succeeded = handle_and_check(args)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/main.py", line 192, in handle_and_check
+    task, res = run_from_args(parsed)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/main.py", line 239, in run_from_args
+    results = task.run()
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 470, in run
+    result = self.execute_with_hooks(selected_uids)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 433, in execute_with_hooks
+    res = self.execute_nodes()
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 379, in execute_nodes
+    self.run_queue(pool)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/task/runnable.py", line 292, in run_queue
+    node = self.job_queue.get()
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/graph/queue.py", line 121, in get
+    _, node_id = self.inner.get(block=block, timeout=timeout)
+  File "/usr/lib/python3.10/queue.py", line 171, in get
+    self.not_empty.wait()
+  File "/usr/lib/python3.10/threading.py", line 320, in wait
+    waiter.acquire()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1104, in emit
+    self.flush()
+  File "/usr/lib/python3.10/logging/__init__.py", line 1084, in flush
+    self.stream.flush()
+BrokenPipeError: [Errno 32] Broken pipe
+Call stack:
+  File "/home/ubuntu/appdata/venv/bin/dbt", line 8, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/main.py", line 137, in main
+    fire_event(MainKeyboardInterrupt())
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/events/functions.py", line 308, in fire_event
+    send_to_logger(STDOUT_LOG, level_tag=e.level_tag(), log_line=log_line)
+  File "/home/ubuntu/appdata/venv/lib/python3.10/site-packages/dbt/events/functions.py", line 232, in send_to_logger
+    l.info(log_line)
+Message: '\x1b[0m16:24:44  ctrl-c'
+Arguments: ()
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/pythian.json
+['/home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/pythian.json']

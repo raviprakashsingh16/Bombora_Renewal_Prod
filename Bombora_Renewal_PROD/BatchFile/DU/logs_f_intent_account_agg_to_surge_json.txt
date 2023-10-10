@@ -1,0 +1,2 @@
+LOG STARTED/n/n/n/nFor filename: /home/ubuntu/appdata/Bombora_Renewal_PROD/BatchFile/DA_DBT/pythian.json/n/n0[WARN ] 06:01:25 org.talend.components.api.component.runtime.JarRuntimeInfo- Unable to make field private static volatile java.net.URLStreamHandlerFactory java.net.URL.factory accessible: module java.base does not "opens java.net" to unnamed module @2ba867a6
+Job Completed

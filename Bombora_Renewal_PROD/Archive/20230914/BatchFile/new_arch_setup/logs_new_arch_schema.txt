@@ -1,0 +1,6 @@
+LOG STARTED 
+
+schema "bombora_dwh" already exists
+schema "bombora_dwh" already exists
+schema "pythian_dwh" already exists
+Table f_acc_topics created

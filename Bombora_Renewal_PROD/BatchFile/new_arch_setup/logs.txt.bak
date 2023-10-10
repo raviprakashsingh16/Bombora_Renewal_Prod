@@ -1,0 +1,38 @@
+get_creds, Done
+database "bombora_tena_demo" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_tena_demo" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_tena_demo" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_tena_demo" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_tena_demo" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_tena_demo" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_tena_demo" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_tena_demo" already exists
+DB creation, Completed
+get_creds, Done
+database "bombora_tena_demo" already exists
+DB creation, Completed
+get_creds, Done
+connection to server at "aiml-dev-db.cbtaanq5yhb4.us-east-1.rds.amazonaws.com" (34.224.231.239), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+connection to server at "aiml-dev-db.cbtaanq5yhb4.us-east-1.rds.amazonaws.com" (34.224.231.239), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+DB creation, Completed
+get_creds, Done
+database "bombora_tena_demo" already exists
+DB creation, Completed
+get_creds, Done
+connection to server at "aiml-dev-db.cbtaanq5yhb4.us-east-1.rds.amazonaws.com" (34.224.231.239), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+connection to server at "aiml-dev-db.cbtaanq5yhb4.us-east-1.rds.amazonaws.com" (34.224.231.239), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+DB creation, Completed
